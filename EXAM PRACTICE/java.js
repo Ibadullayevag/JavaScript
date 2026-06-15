@@ -4,7 +4,7 @@
 // 5 va 7 sonlarining yig'indisini toping.
 // let a1 = 5,
 //   b1 = 7;
-// Javob:
+//* Javob:
 // let son1 = 5
 // let son2 = 7
 // natija =son1+son2
@@ -13,7 +13,7 @@
 //^
 // 2-masala (juda oson)
 // 12 va 4 sonlarining ayirmasini toping.
-// Javob:
+//* Javob:
 // let son1 = 12
 // son2 = 4
 // console.log(son1-son2)
@@ -21,7 +21,7 @@
 //^
 // 3-masala (juda oson)
 // 8 va 3 sonlarining ko'paytmasini toping.
-// Javob:
+//* Javob:
 // let son1 = 8
 // son2 = 3
 // console.log(son1 * son2)
@@ -29,7 +29,7 @@
 //^
 // 4-masala (juda oson)
 // 20 ni 4 ga bo'ling.
-// Javob:
+//* Javob:
 // let son1 = 20
 // son2 = 4
 // console.log(son1 / son2)
@@ -37,7 +37,7 @@
 //^
 // 5-masala (juda oson)
 // "Salom" so'zini 3 marta konsolga chiqaring (for).
-// Javob:
+//* Javob:
 // for(let i=1; i<=3; i++){
 // console.log("Salom")
 // }
@@ -45,7 +45,7 @@
 //^
 // 6-masala (juda oson)
 // 1 dan 5 gacha sonlarni chiqaring (for).
-// Javob:
+//* Javob:
 // let son = 0
 // for ( let i=1; i<=5; i++){
 //     console.log(i)
@@ -65,7 +65,7 @@
 //^
 // 8-masala (juda oson)
 // Berilgan son 10 dan katta bo'lsa "Katta", aks holda "Kichik" deb chiqaring (if/else).
-// Javob:
+//* Javob:
 // let son8 = 15;
 // if(son8>10){
 //     console.log("Katta")
@@ -77,7 +77,7 @@
 //^
 // 9-masala (juda oson)
 // Berilgan son 5 ga teng bo'lsa "Teng", aks holda "Teng emas" deb chiqaring.
-// Javob:
+//* Javob:
 // let son9 = 5;
 // if(son9 =5){
 //     console.log("Teng")
@@ -97,7 +97,7 @@
 //^
 // 11-masala (juda oson)
 // Berilgan son musbat bo'lsa "Musbat" deb chiqaring.
-// Javob:
+//* Javob:
 // let son11 = 7;
 // if (son11 > 0) {
 //     console.log("Musbat")
@@ -108,7 +108,7 @@
 //^
 // 12-masala (juda oson)
 // 2 dan 8 gacha bo'lgan juft sonlarni chiqaring (for).
-// Javob:
+//* Javob:
 // for( let i=2; i<=8; i++){
 //     if(i %2 ===0 ){
 //         console.log (i);
@@ -118,7 +118,7 @@
 //^
 // 13-masala (juda oson)
 // 1 dan 10 gacha bo'lgan sonlarning ko'paytmasini toping (while).
-// Javob:
+//* Javob:
 // let i=1
 // let kopaytma=1
 // while(i<=10){
@@ -134,7 +134,7 @@
 //^
 // 14-masala (juda oson)
 // Berilgan ikkita sonning kattasini aniqlang (if/else).
-// Javob:
+//* Javob:
 // let x14 = 12,
 //   y14 = 8;
 // if(x14>y14){
@@ -152,7 +152,7 @@ let soz15 = "JavaScript";
 
 // 16-masala (juda oson)
 // 1 dan 7 gacha toq sonlarni chiqaring (for).
-// Javob:
+//* Javob:
 // for( let i=1; i<=7; i++){
 //     if(i %2 !==0 ){
 //         console.log (i);
@@ -162,7 +162,7 @@ let soz15 = "JavaScript";
 
 // 17-masala (juda oson)
 // Berilgan son 0 ga teng bo'lsa "Nol" deb chiqaring (if).
-// Javob:
+//* Javob:
 // let son17 = 0;
 // if (son17 == 0){
 //     console.log("Nol")
@@ -170,11 +170,11 @@ let soz15 = "JavaScript";
 
 // 18-masala (juda oson)
 // 5 dan 1 gacha sonlarni teskari chiqaring (while).
-// Javob:
+//! Javob:
 
 // 19-masala (juda oson)
 // Berilgan son 100 dan kichik bo'lsa "Kichik", aks holda "Katta yoki teng" deb chiqaring.
-// Javob:
+//* Javob:
 // let son19 = 50;
 
 // if (son19 < 100) {
@@ -185,34 +185,52 @@ let soz15 = "JavaScript";
 
 // 20-masala (juda oson)
 // 1 dan 3 gacha sonlarni va ularning kvadratlarini chiqaring (for).
-// Javob:
+//* Javob:
+// for (let i = 1; i <= 3; i++) {
+//   console.log( i * i);
+// }
 
 //* ==================== Middle (21-40) ====================
 
 // 21-masala (o'rtacha)
 // Foydalanuvchi yoshini tekshiring. Agar yosh 18 dan katta yoki teng bo'lsa "Voyaga yetgan", aks holda "Voyaga yetmagan" deb chiqaring.
-let yosh21 = 20;
-// Javob:
+
+//* Javob:
+// let yosh21 = prompt("Yoshingizni yozing")
+// if(yosh21 >= 18){
+//   console.log("voyaga yetgan")
+// } else{
+//   console.log("voyaga yetmagan")
+// }
 
 // 22-masala (o'rtacha)
 // 1 dan 50 gacha bo'lgan sonlardan faqat 7 ga bo'linadiganlarini chiqaring (for + if).
-// Javob:
+//* Javob:
+// for(i=1; i<=50; i++)
+// {
+//     if(i%7 ===0) {
+//     console.log(i)
+//   }
+// }
 
 // 23-masala (o'rtacha)
 // Berilgan sonning raqamlar sonini toping (while). Masalan: 1234 -> 4 ta raqam.
 let son23 = 1234;
-// Javob:
+//! Javob:
 
 // 24-masala (o'rtacha)
 // Uchta sondan eng kichigini toping (if/else).
 let a24 = 15,
   b24 = 8,
   c24 = 12;
-// Javob:
+//! Javob:
 
 // 25-masala (o'rtacha)
 // 10 dan 1 gacha bo'lgan sonlarni va ularning kubini chiqaring (for).
-// Javob:
+//* Javob:
+// for (let i = 10; i >= 1; i--) {
+//   console.log(i, i * i * i);
+// }
 
 // 26-masala (o'rtacha)
 // Berilgan sonning raqamlar yig'indisini toping (while). Masalan: 123 -> 1+2+3=6
