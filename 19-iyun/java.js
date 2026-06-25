@@ -162,22 +162,29 @@
 // console.log(numbers)
 
 // --------------------------------------------
-// 8 - String'ni massivga aylantirish
+//* 8 - String'ni massivga aylantirish
 // --------------------------------------------
 // "JavaScript" so'zini harflarga ajratib massiv qilib chiqaring
+// let java =[
+//     "J","a", "v", "a", "S", "c","r","i","p","t"
+// ]
+// console.log(java)
 
 
 // --------------------------------------------
-// 9 - Massivni string'ga aylantirish
+//! 9 - Massivni string'ga aylantirish
 // --------------------------------------------
 // [1, 2, 3, 4] massivini "-" bilan ajratib string qilib chiqaring
 
 
 // --------------------------------------------
-// 10 - Massivni teskari qilish
+//* 10 - Massivni teskari qilish
 // --------------------------------------------
 // [1, 2, 3, 4, 5] massivini teskari tartibda chiqaring
 
+// let numbers = [1, 2, 3, 4]
+// numbers.reverse()
+// console.log(numbers )
 
 // --------------------------------------------
 // 11 - Faqat juft sonlar
