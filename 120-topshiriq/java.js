@@ -44,14 +44,18 @@
 // }
 // console.log(sum)
 // 7. Foydalanuvchi kiritgan sonning faktorialini for yordamida hisoblang
-let son = parseInt(prompt("Son kiriting: "));
-let kopaymasi = 1;
-for (let i = 1; i <= son; i++) {
-  kopaymasi *= i;
-}
-console.log(kopaymasi);
+// let son = parseInt(prompt("Son kiriting: "));
+// let kopaymasi = 1;
+// for (let i = 1; i <= son; i++) {
+//   kopaymasi *= i;
+// }
+// console.log(kopaymasi);
+//*******************/
 // 8. Berilgan massivning eng katta elementini for yordamida toping
+
+
 // 9. Berilgan massivning eng kichik elementini for yordamida toping
+
 // 10. Foydalanuvchi kiritgan sonni teskari tartibda while yordamida chiqaring
 
 // 11. 1 dan 50 gacha bo'lgan toq sonlarning yig'indisini for yordamida toping
