@@ -52,33 +52,115 @@
 // console.log(kopaymasi);
 //*******************/
 // 8. Berilgan massivning eng katta elementini for yordamida toping
+// let arr = [1,2,3,4,5,6,7,8,9,10,11,12,13,114,3,23,4,324,32,4,32,4,23,42,4,2,4,324]
 
+// for (let i = 0; i <= arr.length; i++) {
+//   console.log(arr[i])
+// }
 
 // 9. Berilgan massivning eng kichik elementini for yordamida toping
+// let arr = [1,2,3,4,5,6,7,8,9,10,11,12,13,114,3,23,4,324,32,4,32,4,23,42,4,2,4,324];
+// let min = arr[0]
+// for (let i = 0; i < arr.length; i++) {
+//     if (arr[i] < min) {
+//         min = arr[i]
+//     }
+// }
+// console.log(min)
 
-// 10. Foydalanuvchi kiritgan sonni teskari tartibda while yordamida chiqaring
+//! 10. Foydalanuvchi kiritgan sonni teskari tartibda while yordamida chiqaring
 
 // 11. 1 dan 50 gacha bo'lgan toq sonlarning yig'indisini for yordamida toping
+// let yigindi = 0;
+// for (let i = 1; i <= 50; i++) {
+//   if (i % 2 !== 0) {
+//     yigindi += i
+//   }
+// }
+// console.log(yigindi);
 // 12. Berilgan massiv elementlarini teskari tartibda for yordamida chiqaring
-// 13. Foydalanuvchi kiritgan sonning raqamlari yig'indisini while yordamida toping
+// let arr = [1,2,3,4,5,6,7,8,9,10,11,12,13,114,3,23,4,324,32,4,32,4,23,42,4,2,4,324];
+
+// for (let i = arr.length - 1; i >= 0; i--) {
+//   console.log(arr[i])
+// }
+
+//! 13. Foydalanuvchi kiritgan sonning raqamlari yig'indisini while yordamida toping
 
 // 14. Berilgan massivda nechta manfiy son borligini for yordamida hisoblang
+// let arr = [1,2,3,4,5,6,7,8,9,10,11,12,13,114,3,23,4,324,32,4,32,4,23,42,4,2,4,324];
+// let massvson = 0;
+// for (let i = 0; i < arr.length; i++) {
+//   if (arr[i] < 0) {
+//      massvson++
+//   }
+// }
+// console.log( massvson);
+
 // 15. 1 dan 15 gacha bo'lgan sonlarning kvadratini for yordamida chiqaring
+// for (let i = 1; i <= 15; i++) {
+// console.log(i * i)
+// }
 // 16. Foydalanuvchi -1 raqamini kiritguncha sonlarni qabul qilishni davom ettiring (do/while)
+// let i;
+// do{
+//     i = prompt("son kiriting")
+// } while (i !=-1)
+//     console.log("toxtadi")
+
 // 17. Berilgan massivning 2-indeksidagi elementni if yordamida chiqaring
+console.log(3)
+
 // 18. Foydalanuvchi kiritgan son 3 ga bo'linishini if yordamida tekshiring
-// 19. Berilgan massivning birinchi va oxirgi elementlarini if yordamida almashtiring
+// let son = +prompt("son kirit")
+// if (son % 3 === 0) {
+//   console.log("3 ga bo'linadi")
+// } else {
+//   console.log("3 ga bo'linmaydi")
+// }
+
+//! 19. Berilgan massivning birinchi va oxirgi elementlarini if yordamida almashtiring
+
 // 20. 1 dan 30 gacha bo'lgan 3 ga karrali sonlarni for yordamida chiqaring
-// 21. Berilgan massiv elementlarining o'rtacha qiymatini for yordamida toping
-// 22. Foydalanuvchi kiritgan sonning teskari ko'rinishini while yordamida chiqaring
-// 23. Berilgan massivdagi barcha musbat sonlarning yig'indisini for yordamida toping
+// for (let i = 1; i <= 30; i++) {
+//   if (i % 3 === 0) {
+//     console.log(i)
+//   }
+// }
+//! 21. Berilgan massiv elementlarining o'rtacha qiymatini for yordamida toping
+//! 22. Foydalanuvchi kiritgan sonning teskari ko'rinishini while yordamida chiqaring
+//!23. Berilgan massivdagi barcha musbat sonlarning yig'indisini for yordamida toping
+
 // 24. 10 dan 1 gacha bo'lgan sonlarni teskari tartibda for yordamida chiqaring
-// 25. Berilgan massivda 5 raqami bor yoki yo'qligini for va if yordamida tekshiring
+// for (let i = 10; i >= 1; i--) {
+//   console.log(i)
+// }
+
+//! 25. Berilgan massivda 5 raqami bor yoki yo'qligini for va if yordamida tekshiring
+
 // 26. 1 dan 20 gacha bo'lgan sonlarning kubini while yordamida chiqaring
+// let i = 1;
+// while (i <= 20) {
+//   console.log(i * i * i)
+//   i++
+// }
+
 // 27. Foydalanuvchi kiritgan sonning juft yoki toq ekanligini if yordamida aniqlang
+// let son = +prompt("son kirit")
+// if (son % 2 === 0) {
+//   console.log("Juft son")
+// } else {
+//   console.log("Toq son")
+// }
 // 28. Berilgan massivning nechta elementdan iborat ekanligini for yordamida chiqaring
-// 29. 1 dan 12 gacha bo'lgan oylarni nomlari bilan for yordamida chiqaring
-// 30. Foydalanuvchi kiritgan 3 ta sondan eng kattasini if yordamida toping
+// let arr = [1,2,3,4,5,6,7,8,9,10,11,12,13,114,3,23,4,324,32,4,32,4,23,42,4,2,4,324];
+// let elementsoni = 0;
+// for (let i = 0; i < arr.length; i++) {
+//   elementsoni++
+// }
+// console.log(elementsoni)
+//! 29. 1 dan 12 gacha bo'lgan oylarni nomlari bilan for yordamida chiqaring
+//! 30. Foydalanuvchi kiritgan 3 ta sondan eng kattasini if yordamida toping
 
 // ==========================================
 // O'RTA SAVOLLAR (31-60)
