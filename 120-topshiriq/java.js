@@ -169,6 +169,7 @@ console.log(3)
 // 31. Fibonachchi ketma-ketligining n-elementini for yordamida toping
 // 32. Berilgan massivda nechta element takrorlanganligini for va if yordamida toping
 // 33. Foydalanuvchi kiritgan sonning tub yoki murakkab ekanligini for va if yordamida tekshiring
+
 // 34. Ikkita berilgan massivning umumiy elementlarini for va if yordamida toping
 // 35. Berilgan massivni o'sish tartibida for va if yordamida saralang
 // 36. Foydalanuvchi kiritgan sonning 2-darajasini while yordamida hisoblang
