@@ -349,11 +349,11 @@
 // filter() yordamida faqat 18 yoshdan katta foydalanuvchilarni ajratib oling.
 
 
-// 58-topshiriq (findLastIndex)
+//* 58-topshiriq (findLastIndex)
 // let harorat = [22, 25, 30, 18, 33, 20];
 // 30 dan yuqori bo'lgan oxirgi haroratning indeksini findLastIndex() bilan toping.
 let harorat = [22, 25, 30, 18, 33, 20]
-let indx = harorat.findLastIndex(har => har > 30)
+let indx = harorat.findLastIndex(harorat=>harorat>30)
 console.log(indx)
 
 // 59-topshiriq (reduce)
