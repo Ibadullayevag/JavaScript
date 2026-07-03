@@ -36,14 +36,14 @@
 // 4-topshiriq (splice)
 // let arr = [10, 20, 30, 40, 50];
 // 2-indeksdan boshlab 2 ta elementni o'chirib, o'rniga 100 va 200 sonlarini joylashtiring. Natijani chop eting.
-let arr = [10, 20, 30, 40, 50]
-arr.splice(2, 2, 100, 200)
-console.log(arr)
+// let arr = [10, 20, 30, 40, 50]
+// arr.splice(2, 2, 100, 200)
+// console.log(arr)
 
 // 5-topshiriq (keys)
 // let mevalar = ["olma", "nok", "shaftoli", "gilos"];
 // keys() yordamida faqat juft indekslarni (0, 2, ...) konsolga chiqaring.
-
+let mevalar = ["olma", "nok", "shaftoli", "gilos"];
 
 // 6-topshiriq (pop)
 // let stack = [];
