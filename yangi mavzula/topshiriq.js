@@ -43,18 +43,35 @@
 // 5-topshiriq (keys)
 // let mevalar = ["olma", "nok", "shaftoli", "gilos"];
 // keys() yordamida faqat juft indekslarni (0, 2, ...) konsolga chiqaring.
-let mevalar = ["olma", "nok", "shaftoli", "gilos"];
+// let mevalar = ["olma", "nok", "shaftoli", "gilos"];
+// for (let i of mevalar.keys()) {
+//    if (i % 2 == 0) {
+//       console.log(i)
+//    }
+// }
 
 // 6-topshiriq (pop)
 // let stack = [];
 // push() yordamida stackga 1,2,3,4,5 sonlarini qo'shing, so'ng pop() bilan ketma-ket 3 ta elementni
 // olib, ularning yig'indisini chop eting.
 
+// let stack = []
+// let popStack =[]
+// for (let i =1; i <=100; i++){
+//    stack.push(i)
+// }
+// for (let i =0; i<3; i++){
+//    popStack.push(stack.pop())
+// }
+// console.log(`Jami stack da (${stack})lar qoldi`)
+// console.log(`Olib tashalgan mahsulotlar (${popStack.reverse()})`)
 
 // 7-topshiriq (reduceRight)
 // let arr = ["JS", "dan", "salom"];
 // reduceRight() yordamida so'zlarni to'g'ri tartibda birlashtirib "salom dan JS" ko'rinishidagi
 // jumlani hosil qiling.
+// let arr = ["JS", "dan", "salom"]
+
 
 
 // 8-topshiriq (unshift)
@@ -243,6 +260,8 @@ let mevalar = ["olma", "nok", "shaftoli", "gilos"];
 // let log = [];
 // 1 dan 20 gacha bo'lgan sonlar orasidan faqat 3 ga bo'linadiganlarini push() bilan log massiviga qo'shing.
 
+// let log = []
+
 
 // 43-topshiriq (findIndex)
 // let parollar = ["12345", "qwerty", "Str0ng!Pass", "abcdef"];
@@ -285,6 +304,9 @@ let mevalar = ["olma", "nok", "shaftoli", "gilos"];
 // 50-topshiriq (findLast)
 // let sonlar = [3, 15, 8, 21, 6, 9];
 // findLast() yordamida 5 ga qoldiqsiz bo'linadigan oxirgi sonni toping.
+// let sonlar = [3, 15, 8, 21, 6, 9];
+// let natija = sonlar.findLast(son=>son % 5=== 0);
+// console.log(natija);
 
 
 // 51-topshiriq (forEach)
@@ -313,6 +335,8 @@ let mevalar = ["olma", "nok", "shaftoli", "gilos"];
 // 55-topshiriq (entries)
 // let mahsulotlar = ["non", "sut", "tuxum"];
 // entries() yordamida har bir mahsulotni "#0 - non" formatida (indeks boshida # bilan) chop eting.
+// let mahsulotlar = ["non", "sut", "tuxum"]
+
 
 
 // 56-topshiriq (lastIndexOf)
@@ -328,7 +352,9 @@ let mevalar = ["olma", "nok", "shaftoli", "gilos"];
 // 58-topshiriq (findLastIndex)
 // let harorat = [22, 25, 30, 18, 33, 20];
 // 30 dan yuqori bo'lgan oxirgi haroratning indeksini findLastIndex() bilan toping.
-
+let harorat = [22, 25, 30, 18, 33, 20]
+let indx = harorat.findLastIndex(har => har > 30)
+console.log(indx)
 
 // 59-topshiriq (reduce)
 // let xarajatlar = [{turi:"oziq-ovqat", summa:150000}, {turi:"transport", summa:80000},
