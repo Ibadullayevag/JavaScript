@@ -268,11 +268,17 @@
 // Uzunligi 8 dan katta bo'lgan birinchi parolning indeksini findIndex() bilan toping.
 
 
-// 44-topshiriq (splice)
+//* 44-topshiriq (splice)
 // let hafta = ["Dush", "Sesh", "Chor", "Pay", "Juma", "Shan", "Yak"];
 // splice() yordamida ish kunlarini (Dush-Juma) dam olish kunlaridan (Shan-Yak) alohida
 // massivlarga ajrating (asl massivni o'zgartirib).
+// let hafta = ["Dush", "Sesh", "Chor", "Pay", "Juma", "Shan", "Yak"]
 
+// let ishkunlar =hafta.splice(0,5)
+// let damolishkuni =hafta.splice(0,2)
+// console.log(ishkunlar)
+// console.log(damolishkuni)
+// console.log(hafta)
 
 // 45-topshiriq (keys)
 // let arr = ["a", "b", "c", "d", "e"];
@@ -352,9 +358,9 @@
 //* 58-topshiriq (findLastIndex)
 // let harorat = [22, 25, 30, 18, 33, 20];
 // 30 dan yuqori bo'lgan oxirgi haroratning indeksini findLastIndex() bilan toping.
-let harorat = [22, 25, 30, 18, 33, 20]
-let indx = harorat.findLastIndex(harorat=>harorat>30)
-console.log(indx)
+// let harorat = [22, 25, 30, 18, 33, 20]
+// let indx = harorat.findLastIndex(harorat=>harorat>30)
+// console.log(indx)
 
 // 59-topshiriq (reduce)
 // let xarajatlar = [{turi:"oziq-ovqat", summa:150000}, {turi:"transport", summa:80000},
