@@ -114,12 +114,16 @@
 // 15-topshiriq (entries)
 // let taomlar = ["osh", "manti", "lag'mon"];
 // entries() yordamida har bir taomni "1-taom: osh" formatida chop eting (indeks 1 dan boshlansin).
-
+// let arr = ["osh", "manti", "lag'mon"];
+// for (let [index, taom] of arr.entries()) {
+//     console.log(`${index + 1}-taom: ${taom}`)
+// }
 
 // 16-topshiriq (lastIndexOf)
 // let harakatlar = ["login", "click", "scroll", "click", "logout", "click"];
 // "click" harakati oxirgi marta qaysi indeksda sodir bo'lganini toping.
-
+// let arr = ["login", "click", "scroll", "click", "logout", "click"]
+// console.log(arr.lastIndexOf("click"))
 
 // 17-topshiriq (filter)
 // let foydalanuvchilar = [{ism:"Ali", faol:true}, {ism:"Vali", faol:false}, {ism:"Guli", faol:true}];
