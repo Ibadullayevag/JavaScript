@@ -12,12 +12,12 @@
 */
 
 
-// 1-topshiriq (flat)
+//* 1-topshiriq (flat)
 // Ichma-ich joylashgan [1, [2, [3, [4, 5]]], 6] massivini to'liq (Infinity chuqurlikda) tekislang.
 // let arr =  [1, [2, [3, [4, 5]]], 6]
 // console.log([1, [2, [3, [4, 5]]], 6]. flat(Infinity))
 
-// 2-topshiriq (push)
+//* 2-topshiriq (push)
 // Bo'sh "savat" massivi yarating. Foydalanuvchi tanlagan 3 ta mahsulot nomini (o'zingiz kiriting)
 // push() yordamida qo'shing va oxirida savatdagi mahsulotlar sonini chop eting.
 // let savat= [];
@@ -33,14 +33,14 @@
 // Balli 50 dan past bo'lgan birinchi talabaning indeksini findIndex() bilan toping.
 
 
-// 4-topshiriq (splice)
+//* 4-topshiriq (splice)
 // let arr = [10, 20, 30, 40, 50];
 // 2-indeksdan boshlab 2 ta elementni o'chirib, o'rniga 100 va 200 sonlarini joylashtiring. Natijani chop eting.
 // let arr = [10, 20, 30, 40, 50]
 // arr.splice(2, 2, 100, 200)
 // console.log(arr)
 
-// 5-topshiriq (keys)
+//* 5-topshiriq (keys)
 // let mevalar = ["olma", "nok", "shaftoli", "gilos"];
 // keys() yordamida faqat juft indekslarni (0, 2, ...) konsolga chiqaring.
 // let mevalar = ["olma", "nok", "shaftoli", "gilos"];
@@ -50,7 +50,7 @@
 //    }
 // }
 
-// 6-topshiriq (pop)
+//* 6-topshiriq (pop)
 // let stack = [];
 // push() yordamida stackga 1,2,3,4,5 sonlarini qo'shing, so'ng pop() bilan ketma-ket 3 ta elementni
 // olib, ularning yig'indisini chop eting.
@@ -66,7 +66,7 @@
 // console.log(`Jami stack da (${stack})lar qoldi`)
 // console.log(`Olib tashalgan mahsulotlar (${popStack.reverse()})`)
 
-// 7-topshiriq (reduceRight)
+//* 7-topshiriq (reduceRight)
 // let arr = ["JS", "dan", "salom"];
 // reduceRight() yordamida so'zlarni to'g'ri tartibda birlashtirib "salom dan JS" ko'rinishidagi
 // jumlani hosil qiling.
@@ -74,20 +74,30 @@
 
 
 
-// 8-topshiriq (unshift)
+//* 8-topshiriq (unshift)
 // let navbat = ["Vali", "Guli"];
 // Navbatga eng oldinga "Ali" ismini unshift() bilan qo'shing va yangi navbat uzunligini chop eting.
+// let navbat = ["Vali", "Guli"];
+// navbat.unshift("Ali")
+// console.log(navbat.length)
 
-
-// 9-topshiriq (values)
+//* 9-topshiriq (values)
 // let sonlar = [4, 8, 15, 16, 23, 42];
 // values() iteratorini for...of bilan aylanib, faqat 10 dan katta sonlarni konsolga chiqaring.
 
+// let sonlar = [4, 8, 15, 16, 23, 42]
+// for (let son of sonlar.values()) {
+//     if (son > 10) {
+//        console.log(son)
+//     }}
 
-// 10-topshiriq (findLast)
+//* 10-topshiriq (findLast)
 // let sonlar = [12, 5, 8, 21, 3, 17];
 // findLast() yordamida oxirgi juft sonni toping.
+// let sonlar = [12, 5, 8, 21, 3, 17];
 
+// let natija = sonlar.findLast(son => son % 2 === 0)
+// console.log(natija)
 
 // 11-topshiriq (forEach)
 // let narxlar = [1000, 2500, 3200, 4700];
@@ -111,7 +121,7 @@
 // konsolga chiqaring ("mijoz1 xizmat ko'rmoqda" kabi).
 
 
-// 15-topshiriq (entries)
+//* 15-topshiriq (entries)
 // let taomlar = ["osh", "manti", "lag'mon"];
 // entries() yordamida har bir taomni "1-taom: osh" formatida chop eting (indeks 1 dan boshlansin).
 // let arr = ["osh", "manti", "lag'mon"];
@@ -119,7 +129,7 @@
 //     console.log(`${index + 1}-taom: ${taom}`)
 // }
 
-// 16-topshiriq (lastIndexOf)
+//* 16-topshiriq (lastIndexOf)
 // let harakatlar = ["login", "click", "scroll", "click", "logout", "click"];
 // "click" harakati oxirgi marta qaysi indeksda sodir bo'lganini toping.
 // let arr = ["login", "click", "scroll", "click", "logout", "click"]
@@ -133,7 +143,9 @@
 // 18-topshiriq (findLastIndex)
 // let baholar = [3, 5, 2, 4, 5, 1];
 // findLastIndex() yordamida oxirgi "5" bahoning indeksini toping.
-
+// let baholar = [3, 5, 2, 4, 5, 1]
+// let indeks = baholar.findLastIndex(baho => baho === 5)
+// console.log(indeks)
 
 // 19-topshiriq (reduce)
 // let savat = [{nom:"non", narx:5000, soni:2}, {nom:"sut", narx:8000, soni:1}];
@@ -143,7 +155,16 @@
 // 20-topshiriq (find)
 // let sonlar = [2, 4, 6, 7, 8, 10];
 // Massivdagi birinchi toq sonni find() yordamida toping. Agar toq son bo'lmasa "Topilmadi" deb chop eting.
+// //^Chat GPT
+// let sonlar = [2, 4, 6, 7, 8, 10];
 
+// let natija = sonlar.find(son => son % 2 !== 0);
+
+// if (natija !== undefined) {
+//     console.log(natija);
+// } else {
+//     console.log("Topilmadi");
+// }
 
 // 21-topshiriq (flat)
 // let baholar = [[85, 90], [70, [60, 65]], [95]];
@@ -156,10 +177,16 @@
 // birma-bir qo'shing.
 
 
-// 23-topshiriq (findIndex)
+//* 23-topshiriq (findIndex)
 // let mahsulotlar = [{nom:"stol", narx:150000}, {nom:"stul", narx:45000}, {nom:"shkaf", narx:300000}];
 // Narxi 100000 dan qimmat bo'lgan birinchi mahsulotning indeksini toping va shu mahsulotni
 // massivdan o'chirib tashlang (splice bilan).
+//  let mahsulotlar = [{nom:"stol", narx:150000}, {nom:"stul", narx:45000}, {nom:"shkaf", narx:300000}];
+//  mahsulotlar.forEach((mahsulot, i) => {
+//    let qiymati = Object.values(mahsulot)[1]
+//    if ( qiymati > 100000)
+//       console.log(mahsulotlar)
+//  })
 
 
 // 24-topshiriq (splice)
@@ -183,6 +210,12 @@
 // let sonlar = [1, 2, 3, 4];
 // reduceRight() yordamida sonlarni chapdan o'ngga emas, o'ngdan chapga qarab bo'lish (division)
 // amalini bajaring va natijani chop eting.
+//^Chat GPT
+// let sonlar = [1, 2, 3, 4];
+
+// let natija = sonlar.reduceRight((a, b) => a / b);
+
+// console.log(natija);
 
 
 // 28-topshiriq (unshift)
@@ -206,7 +239,7 @@
 // forEach() yordamida har bir kun uchun "Kun X: issiq/salqin" deb chiqaring (25 va undan yuqori — issiq).
 
 
-// 32-topshiriq (indexOf)
+//! 32-topshiriq (indexOf)
 // let ranglar = ["qizil", "yashil", "ko'k"];
 // "sariq" rangi massivda bor-yo'qligini indexOf() orqali tekshirib, natijaga qarab tegishli xabar chiqaring.
 
@@ -217,22 +250,31 @@
 // (masalan "ali" -> "Ali").
 
 
-// 34-topshiriq (shift)
+//* 34-topshiriq (shift)
 // let printerNavbat = ["hujjat1.pdf", "hujjat2.pdf", "hujjat3.pdf"];
 // shift() yordamida navbatdagi birinchi hujjatni chop qilib (konsolga chiqarib), uni navbatdan olib tashlang.
 // Qolgan navbat uzunligini ham chiqaring.
+// let printerNavbat = ["hujjat1.pdf", "hujjat2.pdf", "hujjat3.pdf"];
 
+// let hujjat = printerNavbat.shift()
+// console.log("Chop qildim", hujjat)
+// console.log("qalgan navbat uzunliq", printerNavbat.length)
 
 // 35-topshiriq (entries)
 // let sotuvlar = [1200, 3400, 800];
 // entries() yordamida eng katta qiymatga ega indeksni (qo'lda taqqoslab) aniqlang.
 
 
-// 36-topshiriq (lastIndexOf)
+//* 36-topshiriq (lastIndexOf)
 // let harakatlar = [0, 1, 0, 0, 1, 0, 1];
 // Oxirgi "1" raqami qaysi pozitsiyada turganini lastIndexOf() bilan aniqlang va shu pozitsiyadan
 // keyingi barcha elementlarni slice() bilan ajratib chop eting.
 
+// let harakatlar = [0, 1, 0, 0, 1, 0, 1]
+
+// let indeks = harakatlar.lastIndexOf(1)
+// console.log(indeks)
+// console.log(harakatlar.slice(indeks + 1))
 
 // 37-topshiriq (filter)
 // let sonlar = [12, 5, 8, 130, 44, 3, 99];
@@ -245,10 +287,13 @@
 // yozuvlarni chop eting.
 
 
-// 39-topshiriq (reduce)
+//* 39-topshiriq (reduce)
 // let sozlar = ["JavaScript", "massiv", "metodlari"];
 // reduce() yordamida barcha so'zlardagi umumiy harflar sonini hisoblang.
-
+//suniy intelekt
+// let sozlar = ["JavaScript", "massiv", "metodlari"];
+// let jamiHarflar = sozlar.reduce((sum, soz) => sum + soz.length, 0);
+// console.log(jamiHarflar)
 
 // 40-topshiriq (find)
 // let ishchilar = [{ism:"Bek", staj:2}, {ism:"Anvar", staj:7}, {ism:"Dilnoza", staj:5}];
@@ -311,7 +356,7 @@
 // values() yordamida barcha baholarning ko'paytmasini hisoblang (tsikl bilan).
 
 
-// 50-topshiriq (findLast)
+//* 50-topshiriq (findLast)
 // let sonlar = [3, 15, 8, 21, 6, 9];
 // findLast() yordamida 5 ga qoldiqsiz bo'linadigan oxirgi sonni toping.
 // let sonlar = [3, 15, 8, 21, 6, 9];
@@ -342,17 +387,23 @@
 // shift() yordamida vazifalarni birma-bir olib, bajarilgan massiviga push() qiling (tsikl bilan).
 
 
-// 55-topshiriq (entries)
+/*/ 55-topshiriq (entries)
 // let mahsulotlar = ["non", "sut", "tuxum"];
 // entries() yordamida har bir mahsulotni "#0 - non" formatida (indeks boshida # bilan) chop eting.
 // let mahsulotlar = ["non", "sut", "tuxum"]
+// for (let i of mahsulotlar.entries()){
+//    console.log(`#${i[0]} - ${i[1]}`)
+// }
 
 
 
-// 56-topshiriq (lastIndexOf)
+/*/ 56-topshiriq (lastIndexOf)
 // let baholar = [5, 4, 5, 3, 5, 2];
 // Eng yuqori bahoning (5) oxirgi marta qayerda uchraganini lastIndexOf() bilan toping.
+// let baholar = [5, 4, 5, 3, 5, 2];
 
+// let index=baholar.lastIndexOf(5)
+// console.log(index)
 
 // 57-topshiriq (filter)
 // let foydalanuvchilar = [{ism:"Ali", yosh:17}, {ism:"Vali", yosh:22}, {ism:"Guli", yosh:15}];
