@@ -10,7 +10,7 @@
 // ===================================================
 
 // 1.1. Berilgan matnni barcha harflarini katta harflarga o'zgartiring.
-// Input: "salom dunyo"
+// Input: "salom dunyo"add
 // Kutilyotgan natija: "SALOM DUNYO"
 
 // 1.2. Berilgan matnning uzunligini toping.
