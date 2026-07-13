@@ -62,3 +62,10 @@ const guncha = {
     sochRangi: "qora",
     ukalariSoni: 2,
 }
+
+guncha.maktab = "Maktabga bormadi"
+
+console.log(Object.values(guncha))
+console.log(Object.keys(guncha))
+console.log(Object.entries(guncha))
+console.log(Object.entries(guncha)[40])
