@@ -90,18 +90,24 @@
 // let birinchiHarf = matn[0].toUpperCase() + matn.slice(1)
 // console.log(birinchiHarf)
 
-// 2.3. Berilgan matnni so'zlarga ajrating (bo'shliq bo'yicha).
+//* 2.3. Berilgan matnni so'zlarga ajrating (bo'shliq bo'yicha).
 // Input: "Men dastur yozaman"
 // Kutilyotgan natija: ["Men", "dastur", "yozaman"]
+// let matn = "Men dastur yozaman"
+// let natija = matn.split(" ")
+// console.log(natija)
 
 
-// 2.4. Berilgan matndagi barcha "a" harflarini "o" ga almashtiring.
+//! 2.4. Berilgan matndagi barcha "a" harflarini "o" ga almashtiring.
 // Input: "salom"
 // Kutilyotgan natija: "solom"
 
-// 2.5. Berilgan matnning oxirgi 4 ta belgisini oling.
+//* 2.5. Berilgan matnning oxirgi 4 ta belgisini oling.
 // Input: "Dasturlash"
 // Kutilyotgan natija: "lash"
+// let matn = "Dasturlash"
+// let natija = matn.slice (-4)
+// console.log (natija)
 
 // 2.6. Berilgan matndan "world" so'zini kesib oling.
 // Input: "Hello world"
