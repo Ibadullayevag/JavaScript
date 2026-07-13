@@ -397,7 +397,7 @@
 
 
 
-/*/ 56-topshiriq (lastIndexOf)
+// /*/ 56-topshiriq (lastIndexOf)
 // let baholar = [5, 4, 5, 3, 5, 2];
 // Eng yuqori bahoning (5) oxirgi marta qayerda uchraganini lastIndexOf() bilan toping.
 // let baholar = [5, 4, 5, 3, 5, 2];
@@ -770,10 +770,12 @@
 // qo'shiladigan 4 marta takrorlanuvchi tsikl yozing.
 
 
-// 123-topshiriq (findIndex)
+//* 123-topshiriq (findIndex)
 // let sonlar = [11, 22, 33, 44, 55, 66];
 // 10 ga qoldiqsiz bo'linadigan birinchi sonning indeksini findIndex() bilan toping.
-
+// let sonlar = [11, 22, 33, 44, 55, 66]
+// let indeks = sonlar.findIndex(son => son % 10 === 0)
+// console.log(indeks)
 
 // 124-topshiriq (splice)
 // let jamoa = ["a'zo1", "a'zo2", "a'zo3", "a'zo4"];
@@ -801,7 +803,10 @@
 // let qadamlar = ["3-qadam", "4-qadam"];
 // unshift() yordamida "1-qadam" va "2-qadam" larni to'g'ri tartibda (1, keyin 2 bo'lib
 // ko'rinadigan qilib) qo'shing.
+// let qadamlar = ["3-qadam", "4-qadam"];
 
+// qadamlar.unshift("1-qadam", "2-qadam")
+// console.log(qadamlar)
 
 // 129-topshiriq (values)
 // let harflar = ["s", "a", "l", "o", "m"];
@@ -809,10 +814,12 @@
 // birlashtirib chop eting.
 
 
-// 130-topshiriq (findLast)
+//! 130-topshiriq (findLast)
 // let narxlar = [12000, 45000, 8000, 67000, 23000];
 // findLast() yordamida 50000 dan kam bo'lgan oxirgi narxni toping.
-
+// let narxlar = [12000, 45000, 8000, 67000, 23000];
+// let natija = narxlar.findLast(narx => narx < 50000)
+// console.log(natija)
 
 // 131-topshiriq (forEach)
 // let o'quvchilar = [{ism:"Ali", davomat:[1,1,0,1,1]}, {ism:"Vali", davomat:[1,0,0,1,0]}];

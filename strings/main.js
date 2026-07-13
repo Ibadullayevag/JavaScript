@@ -9,53 +9,79 @@
 // 1. OSON TOPSHIRIQLAR (10 ta)
 // ===================================================
 
-// 1.1. Berilgan matnni barcha harflarini katta harflarga o'zgartiring.
+//* 1.1. Berilgan matnni barcha harflarini katta harflarga o'zgartiring.
 // Input: "salom dunyo"add
 // Kutilyotgan natija: "SALOM DUNYO"
+// let matn = "salom dunyo"
 
-// 1.2. Berilgan matnning uzunligini toping.
+// let natija = matn.toUpperCase()
+// console.log(natija)
+
+//* 1.2. Berilgan matnning uzunligini toping.
 // Input: "JavaScript"
 // Kutilyotgan natija: 10
+// let matn ="JavaScript"
+// console.log(matn.length)
 
-// 1.3. Berilgan matnning 5-indeksidagi belgini qaytaring.
+//* 1.3. Berilgan matnning 5-indeksidagi belgini qaytaring.
 // Input: "Dasturlash"
 // Kutilyotgan natija: "r"
+// let matn = "Dasturlash"
+// console.log(matn[5])
 
-// 1.4. Berilgan matn "Hello" so'zi bilan boshlanishini tekshiring.
+//* 1.4. Berilgan matn "Hello" so'zi bilan boshlanishini tekshiring.
 // Input: "Hello world"
 // Kutilyotgan natija: true
 
-// 1.5. Berilgan matnni barcha harflarini kichik harflarga o'zgartiring.
+// let matn = "Hello world"
+// console.log(matn.startsWith("Hello"))
+
+//* 1.5. Berilgan matnni barcha harflarini kichik harflarga o'zgartiring.
 // Input: "WEB DASTURLASH"
 // Kutilyotgan natija: "web dasturlash"
+// let matn = "WEB DASTURLASH"
+// console.log(matn.toLowerCase())
 
-// 1.6. Berilgan matnning 3-indeksidagi belgini charAt() yordamida oling.
+//* 1.6. Berilgan matnning 3-indeksidagi belgini charAt() yordamida oling.
 // Input: "Kompyuter"
 // Kutilyotgan natija: "p"
+// let matn = "Kompyuter"
+// console.log(matn.charAt(3))
 
-// 1.7. Berilgan matndagi bo'shliqlarni olib tashlang (trim).
+//* 1.7. Berilgan matndagi bo'shliqlarni olib tashlang (trim).
 // Input: "   Salom   "
 // Kutilyotgan natija: "Salom"
+// let matn = "   Salom   "
+// console.log(matn.trim())
 
-// 1.8. Berilgan matn "!" bilan tugashini tekshiring.
+//* 1.8. Berilgan matn "!" bilan tugashini tekshiring.
 // Input: "Assalomu alaykum!"
 // Kutilyotgan natija: true
+// let matn = "Assalomu alaykum!"
+// console.log(matn.endsWith("!"))
 
-// 1.9. Berilgan matn ichida "js" so'zi borligini tekshiring.
+//* 1.9. Berilgan matn ichida "js" so'zi borligini tekshiring.
 // Input: "Men js o'rganyapman"
 // Kutilyotgan natija: true
+// let matn = "Men js o'rganyapman"
+// console.log( matn.includes ("js"))
 
-// 1.10. Berilgan matnni 3 marta takrorlang.
+//* 1.10. Berilgan matnni 3 marta takrorlang.
 // Input: "ha"
 // Kutilyotgan natija: "hahaha"
+// let matn = "ha"
+// console.log(matn.repeat(3))
 
 // ===================================================
 // 2. O'RTACHA TOPSHIRIQLAR (30 ta)
 // ===================================================
 
-// 2.1. Berilgan ism va familiyani birlashtirib, to'liq ism hosil qiling.
+//* 2.1. Berilgan ism va familiyani birlashtirib, to'liq ism hosil qiling.
 // Input: "Ali", "Karimov"
 // Kutilyotgan natija: "Ali Karimov"
+// let ism = "Ali"
+// let familiya = "Karimov"
+// console.log(ism + " " + familiya)
 
 // 2.2. Berilgan matnning birinchi harfini katta qiling.
 // Input: "javascript"
@@ -64,8 +90,7 @@
 // 2.3. Berilgan matnni so'zlarga ajrating (bo'shliq bo'yicha).
 // Input: "Men dastur yozaman"
 // Kutilyotgan natija: ["Men", "dastur", "yozaman"]
-let matn = prompt("Gapingizni yozing: ")
-console.log(matn.split(" "))
+
 
 // 2.4. Berilgan matndagi barcha "a" harflarini "o" ga almashtiring.
 // Input: "salom"
