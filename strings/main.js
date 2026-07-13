@@ -83,9 +83,12 @@
 // let familiya = "Karimov"
 // console.log(ism + " " + familiya)
 
-// 2.2. Berilgan matnning birinchi harfini katta qiling.
+//* 2.2. Berilgan matnning birinchi harfini katta qiling.
 // Input: "javascript"
 // Kutilyotgan natija: "Javascript"
+// let matn = "javascript"
+// let birinchiHarf = matn[0].toUpperCase() + matn.slice(1)
+// console.log(birinchiHarf)
 
 // 2.3. Berilgan matnni so'zlarga ajrating (bo'shliq bo'yicha).
 // Input: "Men dastur yozaman"
