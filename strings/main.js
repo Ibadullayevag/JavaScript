@@ -98,9 +98,10 @@
 // console.log(natija)
 
 
-//! 2.4. Berilgan matndagi barcha "a" harflarini "o" ga almashtiring.
+//* 2.4. Berilgan matndagi barcha "a" harflarini "o" ga almashtiring.
 // Input: "salom"
 // Kutilyotgan natija: "solom"
+//  m
 
 //* 2.5. Berilgan matnning oxirgi 4 ta belgisini oling.
 // Input: "Dasturlash"
@@ -109,17 +110,26 @@
 // let natija = matn.slice (-4)
 // console.log (natija)
 
-// 2.6. Berilgan matndan "world" so'zini kesib oling.
+//* 2.6. Berilgan matndan "world" so'zini kesib oling.
 // Input: "Hello world"
 // Kutilyotgan natija: "world"
+// let matn = "Hello world"
+// let natija =matn.slice(6)
+// console.log(natija)
 
-// 2.7. Berilgan emaildan @ belgisidan keyingi qismni oling.
+//* 2.7. Berilgan emaildan @ belgisidan keyingi qismni oling.
 // Input: "ali@gmail.com"
 // Kutilyotgan natija: "gmail.com"
+//  let email = "ali@gmail.com";
+//  let natija = email.slice(4)
+//  console.log(natija)
 
 // 2.8. Berilgan matnni teskari tartibda yozing.
 // Input: "JavaScript"
 // Kutilyotgan natija: "tpircSavaJ"
+// let matn = "JavaScript"
+// let natija = matn.split()
+// console.log(natija)
 
 // 2.9. Berilgan matnning uzunligi 10 dan katta yoki kichikligini tekshiring.
 // Input: "Dasturlash"
@@ -149,9 +159,12 @@
 // Input: "   JavaScript   "
 // Kutilyotgan natija: "JavaScript"
 
-// 2.16. Berilgan fayl nomining kengaytmasini oling.
+//* 2.16. Berilgan fayl nomining kengaytmasini oling.
 // Input: "document.pdf"
 // Kutilyotgan natija: "pdf"
+// let fayl = "document.pdf"
+// let natija = fayl.slice(9)
+// console.log(natija)
 
 // 2.17. Berilgan matnni "*" belgisi bilan 10 ta belgigacha to'ldiring (chapdan).
 // Input: "abc"
@@ -169,9 +182,12 @@
 // Input: "salom"
 // Kutilyotgan natija: ["s","a","l","o","m"]
 
-// 2.21. Berilgan matn "https://" bilan boshlanishini tekshiring.
+//* 2.21. Berilgan matn "https://" bilan boshlanishini tekshiring.
 // Input: "https://google.com"
 // Kutilyotgan natija: true
+// let matn = "https://google.com";
+
+// console.log(matn.startsWith("https://"))
 
 // 2.22. Berilgan matnni kichik harflarga o'tkazib, probellarni "-" ga almashtiring.
 // Input: "Mening Blog Postim"
@@ -196,6 +212,8 @@
 // 2.27. Berilgan matnning bosh harfini katta, qolganini kichik qiling.
 // Input: "jAVAsCRIPT"
 // Kutilyotgan natija: "Javascript"
+// let matn = prompt("Matn kiriting:")
+
 
 // 2.28. Berilgan matnni teskari tartibda yozib, keyin yana teskari qiling.
 // Input: "abc"
@@ -205,10 +223,22 @@
 // Input: "salom"
 // Kutilyotgan natija: ["s","lom"]
 
-// 2.30. Berilgan matndagi qaysi belgi eng ko'p qatnashganini toping.
+//* 2.30. Berilgan matndagi qaysi belgi eng ko'p qatnashganini toping.
 // Input: "aabbcc"
 // Kutilyotgan natija: "a" yoki "b" yoki "c"
+// let matn = prompt("matn kiriting:")
+// let belgiSoni = {}
+// let maksimumSOni = 0
 
+// let engKOPBelgi = ""
+// for (let i of matn ){
+//     belgiSoni[i] = (belgiSoni[i] || 0 ) +1
+//     if (belgiSoni[i] > maksimumSOni) {
+//         maksimumSOni= belgiSoni[i]
+//         engKOPBelgi =1
+//     }
+// }
+// console.log(`Eng kop belgi ${engKOPBelgi}`)
 // ===================================================
 // 3. QIYINROQ TOPSHIRIQLAR (40 ta)
 // ===================================================
@@ -456,3 +486,13 @@
 // 4.20. Berilgan matnni tekshirib, u valid phone number ekanligini aniqlang (regex bilan).
 // Input: "+998901234567"
 // Kutilyotgan natija: true
+
+
+
+
+
+
+
+
+
+
