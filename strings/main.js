@@ -124,28 +124,38 @@
 //  let natija = email.slice(4)
 //  console.log(natija)
 
-// 2.8. Berilgan matnni teskari tartibda yozing.
+//* 2.8. Berilgan matnni teskari tartibda yozing.
 // Input: "JavaScript"
 // Kutilyotgan natija: "tpircSavaJ"
 // let matn = "JavaScript"
 // let natija = matn.split()
 // console.log(natija)
 
-// 2.9. Berilgan matnning uzunligi 10 dan katta yoki kichikligini tekshiring.
+//* 2.9. Berilgan matnning uzunligi 10 dan katta yoki kichikligini tekshiring.
 // Input: "Dasturlash"
 // Kutilyotgan natija: false
+// let matn = "Dasturlash"
+// let natija = matn.length > 10
+// console.log(natija)
 
-// 2.10. Berilgan matndagi "olma" so'zini "anor" ga almashtiring.
+//* 2.10. Berilgan matndagi "olma" so'zini "anor" ga almashtiring.
 // Input: "Men olma yedim"
 // Kutilyotgan natija: "Men anor yedim"
+
+// let matn = "men olma yedim"
+// let natija = matn.replace("olma","anor")
+// console.log(natija)
 
 // 2.11. Berilgan matndagi barcha raqamlarni toping.
 // Input: "Narx: 15000 so'm"
 // Kutilyotgan natija: ["15000"]
 
-// 2.12. Berilgan matnni array elementlaridan birlashtiring.
+//* 2.12. Berilgan matnni array elementlaridan birlashtiring.
 // Input: ["Men", "o'qiyman"], " "
 // Kutilyotgan natija: "Men o'qiyman"
+// let matn = ["Men", "o'qiyman"]
+// let natija = matn.join(" ")
+// console.log(natija)
 
 // 2.13. Berilgan matnning 2-indeksidan 6-indeksigacha bo'lgan qismini oling.
 // Input: "Dasturlash"
@@ -230,7 +240,7 @@
 // let belgiSoni = {}
 // let maksimumSOni = 0
 
-// let engKOPBelgi = ""
+//* let engKOPBelgi = ""
 // for (let i of matn ){
 //     belgiSoni[i] = (belgiSoni[i] || 0 ) +1
 //     if (belgiSoni[i] > maksimumSOni) {
@@ -243,26 +253,55 @@
 // 3. QIYINROQ TOPSHIRIQLAR (40 ta)
 // ===================================================
 
-// 3.1. Berilgan matndagi har bir so'zning birinchi harfini katta qiling.
+//* 3.1. Berilgan matndagi har bir so'zning birinchi harfini katta qiling.
 // Input: "salom dunyo uzbekiston"
 // Kutilyotgan natija: "Salom Dunyo Uzbekiston"
 
-// 3.2. Berilgan matnni palindrome ekanligini tekshiring.
+// let matn = "salom dunyo uzbekiston"
+// let natija = matn
+//   .split(" ")
+//   .map(w => w[0].toUpperCase() + w.slice(1))
+//   .join(" ");
+//   console.log(natija)
+
+//* 3.2. Berilgan matnni palindrome ekanligini tekshiring.
 // Input: "kiyik"
 // Kutilyotgan natija: true
+// let matn = "kiyik"
+// let natija = matn === matn.split("").reverse().join("")
+// console.log(natija)
 
-// 3.3. Berilgan matndagi barcha unlilarni (a, e, i, o, u) olib tashlang.
+
+//* 3.3. Berilgan matndagi barcha unlilarni (a, e, i, o, u) olib tashlang.
 // Input: "salom"
 // Kutilyotgan natija: "slm"
+// let son = "salom";
+// let natija = son.split("");
+// let unlilar = ["a", "e", "i", "o", "u"];
+// let newText = []
+// for (let i of natija) {
+//     if(!unlilar.includes(i)) {
+//         newText.push(i)
+//     }
+// }
+// console.log(newText.join(" "));
 
 // 3.4. Berilgan matnni " " bo'yicha ajratib, so'zlarni teskari tartibda yozing.
 // Input: "men dastur yozaman"
 // Kutilyotgan natija: "yozaman dastur men"
 
-// 3.5. Berilgan matn ichidagi barcha raqamlarni topib, ularni yig'indisini hisoblang.
+//* 3.5. Berilgan matn ichidagi barcha raqamlarni topib, ularni yig'indisini hisoblang.
 // Input: "a1b2c3d4"
 // Kutilyotgan natija: 10
+// let matn = "a1b2c3d4";
+// let yigindi = 0;
+// for ( let i of matn.split("")){
+//     if (parseInt(i)){
+//         yigindi+= parseInt(i);
 
+//     }
+// }
+// console.log(yigindi)
 // 3.6. Berilgan matnni camelCase ga o'tkazing.
 // Input: "men dastur yozaman"
 // Kutilyotgan natija: "menDasturYozaman"
