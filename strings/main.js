@@ -200,9 +200,11 @@
 // let text = "bir ikk uch"
 // console.log(text.replaceAll(" ", ","))
 
-// 2.20. Berilgan matnning har bir belgisini alohida array elementiga aylantiring.
+//* 2.20. Berilgan matnning har bir belgisini alohida array elementiga aylantiring.
 // Input: "salom"
 // Kutilyotgan natija: ["s","a","l","o","m"]
+// let text = "salom"
+// console.log ( text.split(""))
 
 //* 2.21. Berilgan matn "https://" bilan boshlanishini tekshiring.
 // Input: "https://google.com"
