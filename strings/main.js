@@ -219,29 +219,32 @@
 // let matn = "Mening Blog Postim"
 // console.log(matn.toLowerCase().replaceAll(" ", "-"))
 
-// 2.23. Berilgan matnni slice va substring yordamida kesib oling va farqini tushuntiring.
+//! 2.23. Berilgan matnni slice va substring yordamida kesib oling va farqini tushuntiring.
 // Input: "JavaScript", index 0 dan 4 gacha
 // Kutilyotgan natija: slice: "Java", substring: "Java"
 
 //* 2.24. Berilgan matnni " " bo'yicha ajratib, so'zlar sonini toping.
 // Input: "Bu bir gap"
 // Kutilyotgan natija: 3
-// let text = "Bu bir gap";
+// let text = "Bu bir gap"
 // console.log(text.split(" ").length)
 
 //! 2.25. Berilgan matndan faqat raqamlarni ajratib oling.
 // Input: "a1b2c3"
 // Kutilyotgan natija: "123"
 
-// 2.26. Berilgan matnni o'ng tomondan 5 ta belgigacha "." bilan to'ldiring.
+//* 2.26. Berilgan matnni o'ng tomondan 5 ta belgigacha "." bilan to'ldiring.
 // Input: "123"
-// Kutilyotgan natija: "123.."
+// Kutilyotgan natija: "123.."|
+// let text = "123"
+// console.log(text.padEnd(5,"."))
 
-// 2.27. Berilgan matnning bosh harfini katta, qolganini kichik qiling.
+//* 2.27. Berilgan matnning bosh harfini katta, qolganini kichik qiling.
 // Input: "jAVAsCRIPT"
 // Kutilyotgan natija: "Javascript"
-// let matn = prompt("Matn kiriting:")
-
+// let mtn = "jAVAsCRIPT"
+// let natija= mtn[0].toUpperCase()+mtn.slice(1).toLowerCase()
+// console.log(natija)
 
 //* 2.28. Berilgan matnni teskari tartibda yozib, keyin yana teskari qiling.
 // Input: "abc"
