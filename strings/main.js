@@ -213,19 +213,23 @@
 
 // console.log(matn.startsWith("https://"))
 
-// 2.22. Berilgan matnni kichik harflarga o'tkazib, probellarni "-" ga almashtiring.
+//* 2.22. Berilgan matnni kichik harflarga o'tkazib, probellarni "-" ga almashtiring.
 // Input: "Mening Blog Postim"
 // Kutilyotgan natija: "mening-blog-postim"
+// let matn = "Mening Blog Postim"
+// console.log(matn.toLowerCase().replaceAll(" ", "-"))
 
 // 2.23. Berilgan matnni slice va substring yordamida kesib oling va farqini tushuntiring.
 // Input: "JavaScript", index 0 dan 4 gacha
 // Kutilyotgan natija: slice: "Java", substring: "Java"
 
-// 2.24. Berilgan matnni " " bo'yicha ajratib, so'zlar sonini toping.
+//* 2.24. Berilgan matnni " " bo'yicha ajratib, so'zlar sonini toping.
 // Input: "Bu bir gap"
 // Kutilyotgan natija: 3
+// let text = "Bu bir gap";
+// console.log(text.split(" ").length)
 
-// 2.25. Berilgan matndan faqat raqamlarni ajratib oling.
+//! 2.25. Berilgan matndan faqat raqamlarni ajratib oling.
 // Input: "a1b2c3"
 // Kutilyotgan natija: "123"
 
@@ -239,13 +243,21 @@
 // let matn = prompt("Matn kiriting:")
 
 
-// 2.28. Berilgan matnni teskari tartibda yozib, keyin yana teskari qiling.
+//* 2.28. Berilgan matnni teskari tartibda yozib, keyin yana teskari qiling.
 // Input: "abc"
 // Kutilyotgan natija: "abc"
+//^SUNIY INTELLEKT
+// let text = "abc";
 
-// 2.29. Berilgan matnni "a" belgisidan ajrating.
+// let result = text.split("").reverse().join("").split("").reverse().join("");
+
+// console.log(result);
+
+//* 2.29. Berilgan matnni "a" belgisidan ajrating.
 // Input: "salom"
 // Kutilyotgan natija: ["s","lom"]
+// let text = "salom";
+// console.log(text.split("a"))
 
 //* 2.30. Berilgan matndagi qaysi belgi eng ko'p qatnashganini toping.
 // Input: "aabbcc"
