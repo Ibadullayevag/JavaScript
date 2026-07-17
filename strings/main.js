@@ -157,17 +157,22 @@
 // let natija = matn.join(" ")
 // console.log(natija)
 
-// 2.13. Berilgan matnning 2-indeksidan 6-indeksigacha bo'lgan qismini oling.
+//* 2.13. Berilgan matnning 2-indeksidan 6-indeksigacha bo'lgan qismini oling.
 // Input: "Dasturlash"
 // Kutilyotgan natija: "sturl"
+// let text = "Dasturlash";
+// console.log(text.slice(2, 7))
 
-// 2.14. Berilgan matn faqat harflardan iboratligini tekshiring.
+//! 2.14. Berilgan matn faqat harflardan iboratligini tekshiring.
 // Input: "Salom123"
 // Kutilyotgan natija: false
 
-// 2.15. Berilgan matnning boshidagi va oxiridagi bo'shliqlarni olib tashlang.
+//* 2.15. Berilgan matnning boshidagi va oxiridagi bo'shliqlarni olib tashlang.
 // Input: "   JavaScript   "
 // Kutilyotgan natija: "JavaScript"
+// let text = "   JavaScript   ";
+
+// console.log(text.trim())
 
 //* 2.16. Berilgan fayl nomining kengaytmasini oling.
 // Input: "document.pdf"
@@ -176,17 +181,24 @@
 // let natija = fayl.slice(9)
 // console.log(natija)
 
-// 2.17. Berilgan matnni "*" belgisi bilan 10 ta belgigacha to'ldiring (chapdan).
+//* 2.17. Berilgan matnni "*" belgisi bilan 10 ta belgigacha to'ldiring (chapdan).
 // Input: "abc"
 // Kutilyotgan natija: "*******abc"
+// let text = "abc";
 
-// 2.18. Berilgan matn ichida "JS" so'zi nechanchi indeksda joylashganini toping.
+// console.log(text.padStart( 10,"*"))
+
+//* 2.18. Berilgan matn ichida "JS" so'zi nechanchi indeksda joylashganini toping.
 // Input: "Men JS o'rganyapman"
 // Kutilyotgan natija: 4
+// let text = "Men JS o'rganyapman";
+// console.log(text.indexOf( "JS"))
 
-// 2.19. Berilgan matndagi barcha probellarni vergulga almashtiring.
+//* 2.19. Berilgan matndagi barcha probellarni vergulga almashtiring.
 // Input: "bir ikk uch"
 // Kutilyotgan natija: "bir,ikk,uch"
+// let text = "bir ikk uch"
+// console.log(text.replaceAll(" ", ","))
 
 // 2.20. Berilgan matnning har bir belgisini alohida array elementiga aylantiring.
 // Input: "salom"
