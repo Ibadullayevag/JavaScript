@@ -331,13 +331,25 @@
 //     }
 // }
 // console.log(yigindi)
-// 3.6. Berilgan matnni camelCase ga o'tkazing.
+//* 3.6. Berilgan matnni camelCase ga o'tkazing.
 // Input: "men dastur yozaman"
 // Kutilyotgan natija: "menDasturYozaman"
+// let str = "men dastur yozaman"
+// let natija = str
+// .split(" ")
+// .map((word, i) => i === 0 ? word : word[0].toUpperCase() + word.slice(1))
+// .join("")
+// console.log(natija)
 
-// 3.7. Berilgan matndagi takrorlangan so'zlarni toping.
+//^ 3.7. Berilgan matndagi takrorlangan so'zlarni toping.
+//^suniy intellekt
 // Input: "bu bu gap gap takror"
 // Kutilyotgan natija: ["bu", "gap"]
+
+// let str2 = "bu bu gap gap takror";
+// let words = str2.split(" ");
+// let repeat = words.filter((word, i) => words.indexOf(word) !== i && words.indexOf(word) === i - 1);
+// console.log(repeat);
 
 // 3.8. Berilgan matnning ichidagi barcha HTML teglarini olib tashlang.
 // Input: "<h1>Salom</h1><p>Dunyo</p>"
@@ -363,9 +375,11 @@
 // Input: "men dastur yozaman"
 // Kutilyotgan natija: [3, 6, 7]
 
-// 3.14. Berilgan matndagi probellarni olib tashlang va uzunligini toping.
+//* 3.14. Berilgan matndagi probellarni olib tashlang va uzunligini toping.
 // Input: "salom dunyo"
 // Kutilyotgan natija: 10
+// let matn = "salom dunyo"
+// console.log(matn.replaceAll(" ", "").length)
 
 // 3.15. Berilgan matnni "|" belgisi bilan ajratib, arrayga aylantiring.
 // Input: "a|b|c|d"
@@ -375,13 +389,18 @@
 // Input: "elephant"
 // Kutilyotgan natija: [0, 3]
 
-// 3.17. Berilgan matnni 5 ta belgidan iborat qilib, o'ngdan "#" bilan to'ldiring.
+//* 3.17. Berilgan matnni 5 ta belgidan iborat qilib, o'ngdan "#" bilan to'ldiring.
 // Input: "123"
 // Kutilyotgan natija: "123##"
+// let matn = "123";
+// console.log(matn.padEnd(5, "#"))
 
-// 3.18. Berilgan matnning faqat 2-va 4-indeksidagi belgilarini oling.
+//* 3.18. Berilgan matnning faqat 2-va 4-indeksidagi belgilarini oling.
 // Input: "JavaScript"
 // Kutilyotgan natija: "vS"
+// let matn= "JavaScript";
+// console.log(matn[2] + matn[4])
+
 
 // 3.19. Berilgan matndagi barcha katta harflarni kichikka, kichiklarini kattaga o'zgartiring.
 // Input: "HeLlO"
@@ -399,17 +418,25 @@
 // Input: "salom"
 // Kutilyotgan natija: true
 
-// 3.23. Berilgan matn ichidagi barcha "a" harflarini "e" ga, "e" larni "a" ga almashtiring.
+//! 3.23. Berilgan matn ichidagi barcha "a" harflarini "e" ga, "e" larni "a" ga almashtiring.
 // Input: "salem"
 // Kutilyotgan natija: "selam"
+// let matn= "salem";
+
+// let natija = matn
+//   .replaceAll("a", "e") .replaceAll("e", "a")
+
+//   console.log(natija)
 
 // 3.24. Berilgan matnni 3 ta qatorga bo'ling (har 3 belgidan).
 // Input: "abcdefghi"
 // Kutilyotgan natija: ["abc","def","ghi"]
 
-// 3.25. Berilgan matndagi barcha raqamlarni "X" bilan almashtiring.
+//* 3.25. Berilgan matndagi barcha raqamlarni "X" bilan almashtiring.
 // Input: "Men 25 yoshdaman"
 // Kutilyotgan natija: "Men XX yoshdaman"
+// let str = "Men 25 yoshdaman";
+// console.log(str.replace(/\d/g, "X"))
 
 // 3.26. Berilgan matnning boshidan va oxiridan ma'lum belgilarni olib tashlang.
 // Input: "**salom**", "*"
