@@ -15,3 +15,4 @@ const obyekt = {
 }
 
 obyekt.suhrob(),
+obyekt.arrowFunksiya();
