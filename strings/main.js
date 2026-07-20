@@ -453,6 +453,9 @@
 // 3.29. Berilgan matnni kichik harflarga o'tkazing va undagi barcha probellarni olib tashlang.
 // Input: "Salom Dunyo"
 // Kutilyotgan natija: "salomdunyo"
+// let str = "Men 25 yoshdaman";
+
+// console.log(str.replace(/\d/g, "X"))
 
 // 3.30. Berilgan matndagi barcha belgilarni o'chirib, faqat raqamlarni qoldiring.
 // Input: "a1b2c3"
