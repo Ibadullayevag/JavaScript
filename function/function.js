@@ -73,4 +73,13 @@ console.log(qoshish (5,8))
 console.log(qoshish(5)) //! Nan - Not a Number
 
 
+//_______________________________
+function tanishtir (ism, ...hobbilar) {
+    return `${ism} sevimli mashgulotlari: ${hobbilar.join (", ")} larni sevadi!`
+}
+
+console.log(tanishtir ("Saidjon", "Dasturlash","Fudbol", "Roblox", "Anime"))
+
+
+// ___________________________________________
 
