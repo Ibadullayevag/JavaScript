@@ -509,9 +509,13 @@
 // let natija =matn.replaceAll(" ","|")
 // console.log(natija)
 
-// 3.38. Berilgan matnni 4 ta belgidan iborat qilib, chapdan "0" bilan to'ldiring.
+//* 3.38. Berilgan matnni 4 ta belgidan iborat qilib, chapdan "0" bilan to'ldiring.
 // Input: "12"
 // Kutilyotgan natija: "0012"
+// let matn = "12";
+
+// let natija = matn.padStart(4, "0")
+// console.log(natija)
 
 //* 3.39. Berilgan matnning uzunligini hisoblang (probelsiz).
 // Input: "salom dunyo"
@@ -519,9 +523,18 @@
 // let matn = "salom dunyo"
 // let uzunlik =matn.replace(/ /g, "").length
 // console.log(uzunlik)
-// 3.40. Berilgan matn ichidagi barcha "l" harflarini indekslarini toping.
+
+//* 3.40. Berilgan matn ichidagi barcha "l" harflarini indekslarini toping.
 // Input: "hello"
 // Kutilyotgan natija: [2, 3]
+// let matn ="hello"
+// let indeksla =[]
+// for (let i = 0; i < matn.length; i++){
+//   if (matn[i] === "l"){
+//     indeksla.push(i)
+//   }
+// }
+// console.log(indeksla)
 
 // ===================================================
 // 4. QIYIN TOPSHIRIQLAR (20 ta)
