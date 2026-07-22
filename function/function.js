@@ -61,3 +61,16 @@ function darajaa(b) {
 
 //darajaa(2)
 console.log(darajaa(2))
+
+
+
+//______________________
+
+function qoshish (a,b) {
+    return a + b;
+}
+console.log(qoshish (5,8))
+console.log(qoshish(5)) //! Nan - Not a Number
+
+
+
