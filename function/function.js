@@ -18,6 +18,16 @@
 
 
 
+
+
+
+
+
+
+
+
+//&_____________________________________________________________
+
 function userData (){
     let ism = prompt ("Ismingizni kiriting")
     let familya = prompt("Familyangizni kiriting")
@@ -26,8 +36,10 @@ function userData (){
 
     let malumoti = `Sizning ismingiz ${ism}, familyangiz ${familya} va yoshingiz ${yosh}da`
 
+
     console.log(malumoti)
 }
+
 userData()
 
 //______________________________
@@ -35,11 +47,17 @@ userData()
 function daraja(a) {
     return a**2
 }
+
+
 console.log(daraja(2))
 
 
 //_________________________
 
 function darajaa(b) {
-    console.log
+    console.log( b ** 3)
+    return "Return funksiyaga qaytaradi"
 }
+
+//darajaa(2)
+console.log(darajaa(2))
