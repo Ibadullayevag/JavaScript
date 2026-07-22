@@ -29,3 +29,17 @@ function userData (){
     console.log(malumoti)
 }
 userData()
+
+//______________________________
+
+function daraja(a) {
+    return a**2
+}
+console.log(daraja(2))
+
+
+//_________________________
+
+function darajaa(b) {
+    console.log
+}
