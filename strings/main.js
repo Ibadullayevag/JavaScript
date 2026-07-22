@@ -351,11 +351,15 @@
 // let repeat = words.filter((word, i) => words.indexOf(word) !== i && words.indexOf(word) === i - 1);
 // console.log(repeat);
 
-// 3.8. Berilgan matnning ichidagi barcha HTML teglarini olib tashlang.
+//* 3.8. Berilgan matnning ichidagi barcha HTML teglarini olib tashlang.
 // Input: "<h1>Salom</h1><p>Dunyo</p>"
 // Kutilyotgan natija: "SalomDunyo"
+//^suniy intellekt
+// let matn = "<h1>Salom</h1><p>Dunyo</p>"
+// let natija = matn.replace(/<[^>]*>/g, "")
+// console.log(natija)
 
-// 3.9. Berilgan matndagi har bir belgini Unicode kodiga aylantiring.
+//! 3.9. Berilgan matndagi har bir belgini Unicode kodiga aylantiring.
 // Input: "A"
 // Kutilyotgan natija: 65
 
@@ -446,19 +450,21 @@
 // Input: "salom"
 // Kutilyotgan natija: "s\na\nl\no\nm"
 
-// 3.28. Berilgan matn ichida "javascript" so'zi necha marta qatnashganini toping.
+//* 3.28. Berilgan matn ichida "javascript" so'zi necha marta qatnashganini toping.
 // Input: "javascript va javascript"
 // Kutilyotgan natija: 2
 
 // let matn = "javascript va javascript";
 // let sanoq=matn.split("javascript").length - 1
 // console.log(sanoq)
-// 3.29. Berilgan matnni kichik harflarga o'tkazing va undagi barcha probellarni olib tashlang.
+
+//* 3.29. Berilgan matnni kichik harflarga o'tkazing va undagi barcha probellarni olib tashlang.
 // Input: "Salom Dunyo"
 // Kutilyotgan natija: "salomdunyo"
-// let str = "Men 25 yoshdaman";
+// let matn="Salom Dunyo"
 
-// console.log(str.replace(/\d/g, "X"))
+// let natija=matn.toLowerCase().replace(/ /g, "")
+// console.log(natija)
 
 // 3.30. Berilgan matndagi barcha belgilarni o'chirib, faqat raqamlarni qoldiring.
 // Input: "a1b2c3"
@@ -472,9 +478,17 @@
 // Input: "men dastur yozaman"
 // Kutilyotgan natija: ["mn", "dr", "yn"]
 
-// 3.33. Berilgan matndagi barcha probellarni sonini toping.
+//* 3.33. Berilgan matndagi barcha probellarni sonini toping.
 // Input: "salom dunyo"
 // Kutilyotgan natija: 1
+// let matn="salom dunyo"
+// let sanoq =0
+// for (let i = 0; i < matn.length; i++){
+//   if(matn[i] === " "){
+//     sanoq++
+//   }
+// }
+// console.log(sanoq)
 
 // 3.34. Berilgan matnni " " bo'yicha ajratib, har bir so'zni katta harf bilan yozing.
 // Input: "salom dunyo"
@@ -488,9 +502,12 @@
 // Input: "salom"
 // Kutilyotgan natija: "ao"
 
-// 3.37. Berilgan matndagi barcha " " belgilarini "|" ga almashtiring.
+//* 3.37. Berilgan matndagi barcha " " belgilarini "|" ga almashtiring.
 // Input: "salom dunyo"
 // Kutilyotgan natija: "salom|dunyo"
+// let matn = "salom dunyo"
+// let natija =matn.replaceAll(" ","|")
+// console.log(natija)
 
 // 3.38. Berilgan matnni 4 ta belgidan iborat qilib, chapdan "0" bilan to'ldiring.
 // Input: "12"
