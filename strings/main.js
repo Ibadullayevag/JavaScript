@@ -450,6 +450,9 @@
 // Input: "javascript va javascript"
 // Kutilyotgan natija: 2
 
+// let matn = "javascript va javascript";
+// let sanoq=matn.split("javascript").length - 1
+// console.log(sanoq)
 // 3.29. Berilgan matnni kichik harflarga o'tkazing va undagi barcha probellarni olib tashlang.
 // Input: "Salom Dunyo"
 // Kutilyotgan natija: "salomdunyo"
@@ -493,10 +496,12 @@
 // Input: "12"
 // Kutilyotgan natija: "0012"
 
-// 3.39. Berilgan matnning uzunligini hisoblang (probelsiz).
+//* 3.39. Berilgan matnning uzunligini hisoblang (probelsiz).
 // Input: "salom dunyo"
 // Kutilyotgan natija: 9
-
+// let matn = "salom dunyo"
+// let uzunlik =matn.replace(/ /g, "").length
+// console.log(uzunlik)
 // 3.40. Berilgan matn ichidagi barcha "l" harflarini indekslarini toping.
 // Input: "hello"
 // Kutilyotgan natija: [2, 3]
