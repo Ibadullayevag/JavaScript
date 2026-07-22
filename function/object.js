@@ -28,14 +28,29 @@
     * OSON DARAJA (1 - 10)
    ============================================================ */
 
-// 1. "talaba" nomli object yarating: ism, yosh, kurs xususiyatlari bilan.
+//* 1. "talaba" nomli object yarating: ism, yosh, kurs xususiyatlari bilan.
 //    Barcha qiymatlarni konsolga chiqaring.
+// const talaba = {
+//   ism: "G'uncha",
+//   yosh: 15,
+//   kurs: 1
+// }
+// console.log(talaba)
 
-// 2. Berilgan object'ga yangi property qo'shing:
-const mahsulot1 = { nomi: "Noutbuk", narx: 8000000 };
+//* 2. Berilgan object'ga yangi property qo'shing:
 // "rang" nomli property qo'shing va konsolga chiqaring.
+// const mahsulot1 = { nomi: "Noutbuk", narx: 8000000 };
+// mahsulot1.rang = "qora"
+// console.log(mahsulot1)
 
-// 3. Yuqoridagi mahsulot1 dan "narx" propertysini o'chiring (delete).
+//* 3. Yuqoridagi mahsulot1 dan "narx" propertysini o'chiring (delete).
+// const mahsulot1 = {
+//   nomi: "Noutbuk",
+//   narx: 8000000,
+//   rang: "qora"
+// }
+// delete mahsulot1.narx;
+// console.log(mahsulot1)
 
 // 4. Object'dagi propertyni dot va bracket notation orqali o'qing:
 const kitob1 = { muallif: "Oybek", nomi: "Navoiy" };
