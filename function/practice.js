@@ -148,8 +148,20 @@ function masala10() {}
 // console.log(masala16([1,2,3,4,5,6,7,8,9,10]))
 
 
-// 17-masala: [array] Massivdagi eng kichik elementni topuvchi funksiya yozing.
-function masala17(massiv) {}
+//! 17-masala: [array] Massivdagi eng kichik elementni topuvchi funksiya yozing.
+// function masala17(massiv) {
+// let engKattaElement = 1;
+// for(let  i of massiv){
+//     if (i < engKattaElement ){
+//         engKattaElement = i 
+//     }
+// }
+// return engKattaElement
+// }
+// console.log(masala17([1,2,3,4,5,6,7,8,9,10]))
+
+
+
 
 // 18-masala: [array] Massiv elementlarini ikkiga ko'paytirib,
 // yangi massiv qaytaruvchi funksiya yozing.
