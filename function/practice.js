@@ -96,11 +96,18 @@ function masala9(son) {}
 // natija 50 dan katta bo'lguncha davom ettiruvchi funksiya yozing.
 function masala10() {}
 
-// 11-masala: [string] Berilgan matnning uzunligini qaytaruvchi funksiya yozing.
-function masala11(matn) {}
+//* 11-masala: [string] Berilgan matnning uzunligini qaytaruvchi funksiya yozing.
+// function masala11(matn) {
+//     return matn.length
+// }
+// console.log(masala11("salom"))
 
-// 12-masala: [string] Berilgan so'zni teskari tartibda qaytaruvchi funksiya yozing.
-function masala12(soz) {}
+//* 12-masala: [string] Berilgan so'zni teskari tartibda qaytaruvchi funksiya yozing.
+// function masala12(soz) {
+//     return soz.split("").reverse().join("");
+// }
+
+// console.log(masala12("salom"))
 
 // 13-masala: [string] Berilgan matnni katta harflarga o'giruvchi funksiya yozing.
 function masala13(matn) {}
