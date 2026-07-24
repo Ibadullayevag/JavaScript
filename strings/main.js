@@ -482,13 +482,13 @@
 // Input: "salom dunyo"
 // Kutilyotgan natija: 1
 // let matn="salom dunyo"
-// let sanoq =0
+// let sonash =0
 // for (let i = 0; i < matn.length; i++){
 //   if(matn[i] === " "){
-//     sanoq++
+//     sonash++
 //   }
 // }
-// console.log(sanoq)
+// console.log(sonash)
 
 // 3.34. Berilgan matnni " " bo'yicha ajratib, har bir so'zni katta harf bilan yozing.
 // Input: "salom dunyo"

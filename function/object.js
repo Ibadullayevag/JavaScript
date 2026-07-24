@@ -87,38 +87,80 @@ const mashina1 = { marka: "Cobalt", yil: 2021 };
 //     "key: value" formatida konsolga chiqaring:
 const mamlakat1 = { nomi: "O'zbekiston", poytaxt: "Toshkent", til: "O'zbek" };
 
-// 12. Object.assign() yordamida ikkita obyektni birlashtiring:
-const shaxsiy1 = { ism: "Aziz", yosh: 24 };
-const ish1 = { lavozim: "Dasturchi", staj: 3 };
+//* 12. Object.assign() yordamida ikkita obyektni birlashtiring:
 // ikkalasini bitta yangi obyektga birlashtiring (asl obyektlarga tegmasdan).
+// const shaxsiy1 = { ism: "Aziz", yosh: 24 };
+// const ish1 = { lavozim: "Dasturchi", staj: 3 };
 
-// 13. Spread operator (...) yordamida yuqoridagi shaxsiy1 va ish1 ni
+// const tozaabyekt = Object.assign({}, shaxsiy1, ish1)
+// console.log(tozaabyekt)
+
+
+//* 13. Spread operator (...) yordamida yuqoridagi shaxsiy1 va ish1 ni
 //     birlashtiring va natijaga "manzil: 'Toshkent'" ham qo'shing.
+// const shaxsiy1 = { ism: "Aziz", yosh: 24 };
+// const ish1 = { lavozim: "Dasturchi", staj: 3 };
+// const tozaabyekt = {
+//   ...shaxsiy1, ...ish1, manzil:"Toshkent"
+// }
+//  console.log(tozaabyekt)
 
-// 14. Quyidagi obyektdan faqat "narx" ni ajratib, qolganini rest operator
+
+//* 14. Quyidagi obyektdan faqat "narx" ni ajratib, qolganini rest operator
 //     bilan yig'ib oling:
-const buyum1 = {
-  nomi: "Stol",
-  narx: 450000,
-  rang: "Jigarrang",
-  material: "Yog'och",
-};
+// const buyum1 = {
+//   nomi: "Stol",
+//   narx: 450000,
+//   rang: "Jigarrang",
+//   material: "Yog'och",
+// };
 
-// 15. Object ichida metod yozing: "hisoblagich" obyekti "son: 0" bilan
+// const {narx, ...qalganlari} = buyum1
+// console.log(narx)
+// console.log(qalganlari)
+
+//* 15. Object ichida metod yozing: "hisoblagich" obyekti "son: 0" bilan
 //     boshlanadi, "oshir()" metodi chaqirilganda son 1 ga oshsin.
+// const hisoblagich = {
+//   son: 0,
+//   oshir(){
+//     this.son++
+//   }
+// }
+// hisoblagich.oshir()
+// console.log(hisoblagich.son)
 
-// 16. Yuqoridagi hisoblagich obyektiga "kamayt()" metodini ham qo'shing,
+//* 16. Yuqoridagi hisoblagich obyektiga "kamayt()" metodini ham qo'shing,
 //     u chaqirilganda son 1 ga kamaysin.
+// const hisoblagich = {
+//   son: 0,
+//   kamayt(){
+//     this.son --
+//   }
+// }
+// hisoblagich.kamayt()
+// console.log(hisoblagich.son)
 
-// 17. Getter yordamida "to'rtburchak" obyekti yarating: en va bo'yi
+
+//! 17. Getter yordamida "to'rtburchak" obyekti yarating: en va bo'yi
 //     propertylari bo'lsin, "yuza" esa avtomatik hisoblansin (get orqali).
-
-// 18. Yuqoridagi "to'rtburchak" obyektiga setter qo'shing: "yuza" ga
+ 
+//! 18. Yuqoridagi "to'rtburchak" obyektiga setter qo'shing: "yuza" ga
 //     yangi qiymat berilganda xato chiqarilsin ("yuza avtomatik hisoblanadi").
 
-// 19. Nested (ichma-ich) obyekt yarating:
+//* 19. Nested (ichma-ich) obyekt yarating:
 //     kompaniya = { nomi, manzil: { shahar, kocha }, xodimlarSoni }
 //     va "manzil.shahar" ni konsolga chiqaring.
+// const kompaniya = {
+//   nomi:"IT park",
+//   manzil: {
+//     shahar: "Urganch",
+//     kocha: "Amir Temur"
+
+//   },
+//   xodimlarSOni: 500,
+// }
+// console.log(kompaniya.manzil.shahar)
 
 // 20. Optional chaining (?.) yordamida quyidagi obyektdan mavjud bo'lmagan
 //     ichki propertyni xatosiz o'qing:
