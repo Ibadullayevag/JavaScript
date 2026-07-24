@@ -61,8 +61,19 @@
 // console.log(masala4(5))
 
 
-// 5-masala: [for] Berilgan sonning faktorialini hisoblovchi funksiya yozing.
-function masala5(son) {}
+//* 5-masala: [for] Berilgan sonning faktorialini hisoblovchi funksiya yozing.
+// function masala5(son) {
+//     let faktorial=1 
+
+//     for (let i=1; i <=son; i++){
+//         faktorial*= i
+//     }
+
+//     return faktorial
+// }
+
+// console.log(masala5(3))
+
 
 // 6-masala: [for] 1 dan 100 gacha bo'lgan juft sonlarni massivga
 // yig'ib qaytaruvchi funksiya yozing.
