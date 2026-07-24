@@ -109,8 +109,12 @@ function masala10() {}
 
 // console.log(masala12("salom"))
 
-// 13-masala: [string] Berilgan matnni katta harflarga o'giruvchi funksiya yozing.
-function masala13(matn) {}
+//* 13-masala: [string] Berilgan matnni katta harflarga o'giruvchi funksiya yozing.
+// function masala13(matn) {
+//     return matn.toUpperCase()
+// }
+
+// console.log(masala13("shoxruzbek"))
 
 // 14-masala: [string] Berilgan matnda "salom" so'zi bor-yo'qligini
 // tekshiruvchi funksiya yozing (true/false qaytarsin).
