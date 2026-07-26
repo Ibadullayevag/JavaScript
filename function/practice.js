@@ -163,10 +163,18 @@ function masala10() {}
 
 
 
-// 18-masala: [array] Massiv elementlarini ikkiga ko'paytirib,
+//* 18-masala: [array] Massiv elementlarini ikkiga ko'paytirib,
 // yangi massiv qaytaruvchi funksiya yozing.
-function masala18(massiv) {}
+// function masala18(massiv) {
+//   let yangi = [];
 
+//   for (let i = 0; i < massiv.length; i++) {
+//     yangi.push(massiv[i] * 2);
+//   }
+
+//   return yangi;
+// }
+// console.log(masala18([1,2,3,4,56,7,8]))
 //* 19-masala: [if-else, for] Massivdagi juft sonlarni alohida
 // massivga ajratuvchi funksiya yozing.
 // function masala19(massiv) {
