@@ -169,7 +169,18 @@ function masala18(massiv) {}
 
 // 19-masala: [if-else, for] Massivdagi juft sonlarni alohida
 // massivga ajratuvchi funksiya yozing.
-function masala19(massiv) {}
+function masala19(massiv) {
+  let juftla = [];
+
+  for (let i=0; i < massiv.length; i++) {
+    if (massiv[i] % 2===0) {
+      juftla.push(massiv[i]);
+    }
+  }
+
+  return juftla;
+}
+console.log(masala19([1, 2, 3, 4, 5, 6]));
 
 // 20-masala: [if-else, for] Massivdagi toq sonlarni alohida
 // massivga ajratuvchi funksiya yozing.
