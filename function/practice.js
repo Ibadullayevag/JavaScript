@@ -175,7 +175,7 @@ function masala19(massiv) {}
 // massivga ajratuvchi funksiya yozing.
 function masala20(massiv) {}
 
-// 21-masala: [object] Ism va yosh parametrlarini qabul qilib,
+//* 21-masala: [object] Ism va yosh parametrlarini qabul qilib,
 // { ism, yosh } ko'rinishida object qaytaruvchi funksiya yozing.
 // function masala21(ism, yosh) {
 //   return {
@@ -183,9 +183,13 @@ function masala20(massiv) {}
 //      yosh };
 // }
 // console.log(masala21("Shoxruzbek", 13))
+
 // 22-masala: [object] Berilgan object ichida "ism" xususiyati
 // mavjudligini tekshiruvchi funksiya yozing.
-function masala22(obj) {}
+// function masala22(obj) {
+//   return "ism" in obj;
+// }
+// console.log(masala22({ism: "Shoxruzbek", yosh:13}))
 
 // 23-masala: [object] Berilgan object'dagi barcha kalitlarni (key)
 // massiv ko'rinishida qaytaruvchi funksiya yozing.
