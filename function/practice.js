@@ -180,7 +180,7 @@ function masala19(massiv) {
 
   return juftla;
 }
-console.log(masala19([1, 2, 3, 4, 5, 6]));
+console.log(masala19([1, 2, 3, 4, 5, 6,7,8,9,10]));
 
 // 20-masala: [if-else, for] Massivdagi toq sonlarni alohida
 // massivga ajratuvchi funksiya yozing.
