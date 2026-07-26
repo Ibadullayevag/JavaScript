@@ -260,7 +260,7 @@ function masala10() {}
 // }
 // console.log(masala26(5))
 
-// 27-masala: [while] Berilgan sonni 2 ga bo'lib, natija 1 dan
+//! 27-masala: [while] Berilgan sonni 2 ga bo'lib, natija 1 dan
 // kichik bo'lguncha bo'lish amalini necha marta bajarish
 // mumkinligini hisoblovchi funksiya yozing.
 function masala27(son) {}
