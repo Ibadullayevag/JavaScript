@@ -167,7 +167,7 @@ function masala10() {}
 // yangi massiv qaytaruvchi funksiya yozing.
 function masala18(massiv) {}
 
-// 19-masala: [if-else, for] Massivdagi juft sonlarni alohida
+//* 19-masala: [if-else, for] Massivdagi juft sonlarni alohida
 // massivga ajratuvchi funksiya yozing.
 // function masala19(massiv) {
 //   let juftla = [];
@@ -182,10 +182,19 @@ function masala18(massiv) {}
 // }
 // console.log(masala19([1, 2, 3, 4, 5, 6,7,8,9,10]));
 
-// 20-masala: [if-else, for] Massivdagi toq sonlarni alohida
+//* 20-masala: [if-else, for] Massivdagi toq sonlarni alohida
 // massivga ajratuvchi funksiya yozing.
-function masala20(massiv) {}
+// function masala20(massiv) {
+//   let toqla = [];
 
+//   for (let i = 0; i <=8; i++) {
+//     if (massiv[i] % 2 !== 0) {
+//       toqla.push(massiv[i]);
+//     }
+//   }
+//   return toqla;
+// }
+// console.log(masala20([1,2,3,4,5,6,7,8]))
 //* 21-masala: [object] Ism va yosh parametrlarini qabul qilib,
 // { ism, yosh } ko'rinishida object qaytaruvchi funksiya yozing.
 // function masala21(ism, yosh) {
