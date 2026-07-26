@@ -187,17 +187,39 @@ function masala22(obj) {}
 // massiv ko'rinishida qaytaruvchi funksiya yozing.
 function masala23(obj) {}
 
-// 24-masala: [if-else] Berilgan sonning juft yoki toqligini
+//* 24-masala: [if-else] Berilgan sonning juft yoki toqligini
 // aniqlovchi funksiya yozing.
-function masala24(son) {}
+// function masala24(son) {
+//     if (son %2 ===0){
+//         return "juft"
+//     } else{
+//         return"toq"
+//     }
+// }
+// console.log(masala24(2))
 
-// 25-masala: [if-else] Uchta sonni solishtirib, eng kattasini
+//* 25-masala: [if-else] Uchta sonni solishtirib, eng kattasini
 // qaytaruvchi funksiya yozing.
-function masala25(a, b, c) {}
+// function masala25(a, b, c) {
+//     if (a > b && a>c){
+//         return" a katta"
+//     } else if (b>a && b>c)
+//         return"b katta"
+//         else{
+//             return"c katta"        }
+// }
+// console.log(masala25(23,20,9))
 
-// 26-masala: [for] 1 dan 10 gacha ko'paytirish jadvalini
+//* 26-masala: [for] 1 dan 10 gacha ko'paytirish jadvalini
 // (masalan 5 uchun: 5,10,15...) massiv ko'rinishida qaytaruvchi funksiya yozing.
-function masala26(son) {}
+// function masala26(son) {
+//     let arr = []
+//     for (let i = 1; i <= 10; i++) {
+//         arr.push(son * i)
+//     }
+//     return arr
+// }
+// console.log(masala26(5))
 
 // 27-masala: [while] Berilgan sonni 2 ga bo'lib, natija 1 dan
 // kichik bo'lguncha bo'lish amalini necha marta bajarish
