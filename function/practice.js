@@ -191,12 +191,13 @@ function masala20(massiv) {}
 // }
 // console.log(masala22({ism: "Shoxruzbek", yosh:13}))
 
-// 23-masala: [object] Berilgan object'dagi barcha kalitlarni (key)
+//* 23-masala: [object] Berilgan object'dagi barcha kalitlarni (key)
 // massiv ko'rinishida qaytaruvchi funksiya yozing.
-function masala23(obj) {
-  return Object.keys(obj);
-}
-console.log(masala23({ism:"guncha", yosh: 15, kasb:"dasturci"}))
+// function masala23(obj) {
+//   return Object.keys(obj);
+// }
+// console.log(masala23({ism:"guncha", yosh: 15, kasb:"dasturci"}))
+
 //* 24-masala: [if-else] Berilgan sonning juft yoki toqligini
 // aniqlovchi funksiya yozing.
 // function masala24(son) {
