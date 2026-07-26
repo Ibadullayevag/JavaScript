@@ -177,8 +177,12 @@ function masala20(massiv) {}
 
 // 21-masala: [object] Ism va yosh parametrlarini qabul qilib,
 // { ism, yosh } ko'rinishida object qaytaruvchi funksiya yozing.
-function masala21(ism, yosh) {}
-
+// function masala21(ism, yosh) {
+//   return {
+//      ism,
+//      yosh };
+// }
+// console.log(masala21("Shoxruzbek", 13))
 // 22-masala: [object] Berilgan object ichida "ism" xususiyati
 // mavjudligini tekshiruvchi funksiya yozing.
 function masala22(obj) {}
