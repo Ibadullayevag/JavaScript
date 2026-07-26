@@ -184,7 +184,7 @@ function masala20(massiv) {}
 // }
 // console.log(masala21("Shoxruzbek", 13))
 
-// 22-masala: [object] Berilgan object ichida "ism" xususiyati
+//* 22-masala: [object] Berilgan object ichida "ism" xususiyati
 // mavjudligini tekshiruvchi funksiya yozing.
 // function masala22(obj) {
 //   return "ism" in obj;
@@ -193,7 +193,9 @@ function masala20(massiv) {}
 
 // 23-masala: [object] Berilgan object'dagi barcha kalitlarni (key)
 // massiv ko'rinishida qaytaruvchi funksiya yozing.
-function masala23(obj) {}
+function masala23(obj) {
+  return Object.keys(obj);
+}
 
 //* 24-masala: [if-else] Berilgan sonning juft yoki toqligini
 // aniqlovchi funksiya yozing.
