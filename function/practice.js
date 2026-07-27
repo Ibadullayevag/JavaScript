@@ -68,7 +68,6 @@
 //     for (let i=1; i <=son; i++){
 //         faktorial*= i
 //     }
-
 //     return faktorial
 // }
 
@@ -366,7 +365,9 @@ function masala47(massiv1, massiv2) {}
 
 // 48-masala: [array] Massivni teskari tartibga o'girib qaytaruvchi
 // funksiya yozing (built-in reverse() ishlatmasdan).
-function masala48(massiv) {}
+function masala48(massiv) {
+    return
+}
 
 // 49-masala: [array, for] Massiv elementlarini o'sish tartibida
 // saralovchi (sorting) funksiya yozing (built-in sort() ishlatmasdan,
