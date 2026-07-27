@@ -273,13 +273,18 @@ function masala28(matn) {}
 // qo'yib qaytaruvchi funksiya yozing.
 function masala29(soz1, soz2) {}
 
-// 30-masala: [array] Massivda berilgan element mavjudligini
+//* 30-masala: [array] Massivda berilgan element mavjudligini
 // tekshiruvchi funksiya yozing (true/false).
-function masala30(massiv, element) {}
+// function masala30(massiv, element) {
+//     return massiv.includes(element)
+// }
 
-// 31-masala: [array] Massiv ichidagi elementlar sonini
+//* 31-masala: [array] Massiv ichidagi elementlar sonini
 // (uzunligini) qaytaruvchi funksiya yozing.
-function masala31(massiv) {}
+// function masala31(massiv) {
+//     return massiv.length
+// }
+// console.log([1,2,3,r,6,7,g])
 
 // 32-masala: [if-else] Berilgan baho (0-100) ga qarab harf baho
 // ("A", "B", "C", "D", "F") qaytaruvchi funksiya yozing.
