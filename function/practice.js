@@ -77,7 +77,17 @@
 
 // 6-masala: [for] 1 dan 100 gacha bo'lgan juft sonlarni massivga
 // yig'ib qaytaruvchi funksiya yozing.
-function masala6() {}
+function masala6() {
+  let massiv =[]
+
+  for (let i = 1; i <= 100; i++) {
+    if (i % 2 ===0) {
+      massiv.push(i);
+    }
+  }
+  return massiv;
+}
+console.log(masala6())
 
 // 7-masala: [while] Berilgan sonning raqamlar yig'indisini
 // while sikli yordamida hisoblang. Masalan: 123 -> 1+2+3 = 6
