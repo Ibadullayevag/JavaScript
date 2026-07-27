@@ -89,20 +89,20 @@
 // }
 // console.log(masala6())
 
-// 7-masala: [while] Berilgan sonning raqamlar yig'indisini
+//! 7-masala: [while] Berilgan sonning raqamlar yig'indisini
 // while sikli yordamida hisoblang. Masalan: 123 -> 1+2+3 = 6
 function masala7(son) {}
 
-// 8-masala: [while] Berilgan sondan boshlab 1 gacha teskari
+//! 8-masala: [while] Berilgan sondan boshlab 1 gacha teskari
 // hisoblovchi (countdown) funksiya yozing, natijalarni massivga yozib qaytaring.
 function masala8(son) {}
 
-// 9-masala: [do-while] Foydalanuvchidan kiritilgan son (parametr) manfiy
+//! 9-masala: [do-while] Foydalanuvchidan kiritilgan son (parametr) manfiy
 // bo'lmaguncha uni kamaytirib borishni simulyatsiya qiluvchi funksiya yozing
 // (har safar 1 ga kamaytiring, qiymatlarni massivga saqlang).
 function masala9(son) {}
 
-// 10-masala: [do-while] 1 dan boshlab kvadratlarini hisoblab,
+//! 10-masala: [do-while] 1 dan boshlab kvadratlarini hisoblab,
 // natija 50 dan katta bo'lguncha davom ettiruvchi funksiya yozing.
 function masala10() {}
 
