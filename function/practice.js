@@ -99,7 +99,7 @@ function masala8(son) {}
 //! 9-masala: [do-while] Foydalanuvchidan kiritilgan son (parametr) manfiy
 // bo'lmaguncha uni kamaytirib borishni simulyatsiya qiluvchi funksiya yozing
 // (har safar 1 ga kamaytiring, qiymatlarni massivga saqlang).
-function masala9(son) {}
+function masala9(sonjj) {}
 
 //! 10-masala: [do-while] 1 dan boshlab kvadratlarini hisoblab,
 // natija 50 dan katta bo'lguncha davom ettiruvchi funksiya yozing.
@@ -196,6 +196,8 @@ function masala10() {}
 //   }
 
 //   return juftla;
+
+
 // }
 // console.log(masala19([1, 2, 3, 4, 5, 6,7,8,9,10]));
 
@@ -203,7 +205,6 @@ function masala10() {}
 // massivga ajratuvchi funksiya yozing.
 // function masala20(massiv) {
 //   let toqla = [];
-
 //   for (let i = 0; i <=8; i++) {
 //     if (massiv[i] % 2 !== 0) {
 //       toqla.push(massiv[i]);
@@ -265,7 +266,7 @@ function masala10() {}
 //     for (let i = 1; i <= 10; i++) {
 //         arr.push(son * i)
 //     }
-//     return arr
+//  return arr
 // }
 // console.log(masala26(5))
 
@@ -293,15 +294,24 @@ function masala29(soz1, soz2) {}
 // function masala31(massiv) {
 //     return massiv.length
 // }
-// console.log([1,2,3,r,6,7,g])
+// console.log([1,shoxruz,6,7,g])
 
-// 32-masala: [if-else] Berilgan baho (0-100) ga qarab harf baho
+//! 32-masala: [if-else] Berilgan baho (0-100) ga qarab harf baho
 // ("A", "B", "C", "D", "F") qaytaruvchi funksiya yozing.
 function masala32(baho) {}
 
-// 33-masala: [for] Berilgan sonning barcha bo'luvchilarini
+//* 33-masala: [for] Berilgan sonning barcha bo'luvchilarini
 // topib, massiv ko'rinishida qaytaruvchi funksiya yozing.
-function masala33(son) {}
+// function masala33(son) {
+//   let boluvchilar = [];
+//   for (let i = 1; i <= son; i++) {
+//     if (son % i === 0) {
+//       boluvchilar.push(i)
+//     }
+//   }
+//   return boluvchilar;
+// }
+// console.log(masala33(100))
 
 // 34-masala: [do-while] 1 dan boshlab sonlarni sanab, ularning
 // yig'indisi berilgan chegaradan oshguncha davom ettiruvchi
@@ -363,11 +373,15 @@ function masala46(massiv) {}
 // elementlarini topuvchi funksiya yozing.
 function masala47(massiv1, massiv2) {}
 
-// 48-masala: [array] Massivni teskari tartibga o'girib qaytaruvchi
+//* 48-masala: [array] Massivni teskari tartibga o'girib qaytaruvchi
 // funksiya yozing (built-in reverse() ishlatmasdan).
-function masala48(massiv) {
-    return
-}
+// function masala48(massiv) {
+//     tersakiMAssiv = []
+//     for ( i < massiv.length; i--){
+//         tersakiMAssiv.push(massiv[i])
+//     }
+//     return tersakiMAssiv}
+// console.log(masala48[1,2,3,45,7])
 
 // 49-masala: [array, for] Massiv elementlarini o'sish tartibida
 // saralovchi (sorting) funksiya yozing (built-in sort() ishlatmasdan,
