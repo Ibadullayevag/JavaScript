@@ -88,13 +88,32 @@
 // }
 // console.log(masala6())
 
-//! 7-masala: [while] Berilgan sonning raqamlar yig'indisini
+//* 7-masala: [while] Berilgan sonning raqamlar yig'indisini
 // while sikli yordamida hisoblang. Masalan: 123 -> 1+2+3 = 6
-function masala7(son) {}
+// function masala7(son) {
+//   let son1 = String(son);
+//   let arr = son1.split("");
+//   let y = 0;
+//   let i = 0;
+//   while (i <= arr.length) {
+//     y += Number(i);
+//     i++;
+//   }
+//   return y;
+// }
+// console.log(masala7(12345));
 
-//! 8-masala: [while] Berilgan sondan boshlab 1 gacha teskari
+//* 8-masala: [while] Berilgan sondan boshlab 1 gacha teskari
 // hisoblovchi (countdown) funksiya yozing, natijalarni massivga yozib qaytaring.
-function masala8(son) {}
+// function masala8(son) {
+//     let natija = []
+
+//     for (let i =son; i >=1; i--) {
+//         natija.push(i)
+//     }
+//         return natija
+// }
+// console.log(masala8(6))
 
 //! 9-masala: [do-while] Foydalanuvchidan kiritilgan son (parametr) manfiy
 // bo'lmaguncha uni kamaytirib borishni simulyatsiya qiluvchi funksiya yozing
@@ -104,7 +123,7 @@ function masala9(sonjj) {}
 //! 10-masala: [do-while] 1 dan boshlab kvadratlarini hisoblab,
 // natija 50 dan katta bo'lguncha davom ettiruvchi funksiya yozing.
 function masala10() {}
-
+ 
 //* 11-masala: [string] Berilgan matnning uzunligini qaytaruvchi funksiya yozing.
 // function masala11(matn) {
 //     return matn.length
@@ -354,7 +373,9 @@ function masala42(soz) {}
 
 // 43-masala: [string] Berilgan matndagi har bir so'zning birinchi
 // harfini katta qilib qaytaruvchi funksiya yozing (Title Case).
-function masala43(matn) {}
+function masala43(matn) {
+
+}
 
 // 44-masala: [string, for] Berilgan matndagi so'zlar sonini
 // hisoblovchi funksiya yozing (bo'sh joylar bo'yicha ajrating).
