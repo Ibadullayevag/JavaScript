@@ -413,11 +413,29 @@ function masala47(massiv1, massiv2) {}
 // bubble sort usulida).
 function masala49(massiv) {}
 
-// 50-masala: [object, for] Object massivi (masalan talabalar ro'yxati)
+//* 50-masala: [object, for] Object massivi (masalan talabalar ro'yxati)
 // ichidan berilgan shartga (masalan yosh > 18) mos keluvchilarni
 // filtrlab qaytaruvchi funksiya yozing.
-function masala50(talabalar, minYosh) {}
+// function masala50(talabalar, minYosh) {
+//   let natija = [];
 
+//   for (let i = 0; i < talabalar.length; i++) {
+//     if (talabalar[i].yosh > minYosh) {
+//       natija.push(talabalar[i]);
+//     }
+//   }
+
+//   return natija;
+// }
+
+// let talabalar = [
+//   { ism: "Ali", yosh: 17 },
+//   { ism: "Vali", yosh: 20 },
+//   { ism: "Hasan", yosh: 19 },
+//   { ism: "Husan", yosh: 16 }
+// ];
+
+// console.log(masala50(talabalar, 18))
 // 51-masala: [object, for] Object massividagi barcha elementlarning
 // berilgan xususiyati (masalan "narx") bo'yicha yig'indisini
 // hisoblovchi funksiya yozing.
