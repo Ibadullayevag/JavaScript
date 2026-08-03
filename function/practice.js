@@ -337,9 +337,13 @@ function masala32(baho) {}
 // funksiya yozing (necha ta son kerak bo'lganini qaytaring).
 function masala34(chegara) {}
 
-// 35-masala: [object] Ikkita object'ni birlashtirib, yangi
+//* 35-masala: [object] Ikkita object'ni birlashtirib, yangi
 // object qaytaruvchi funksiya yozing.
-function masala35(obj1, obj2) {}
+//  function masala35(obj1, obj2) {
+//         return { ...obj1, ...obj2 };
+//     }
+//     let obj1 = { ism: "Ali", yosh: 20 }
+//     let obj2 = { kasb: "Dasturchi", shahar: "Toshkent" }
 
 // ==================== O'RTACHA DARAJA (36 - 75) ====================
 
