@@ -381,10 +381,20 @@ function masala43(matn) {
 
 }
 
-// 44-masala: [string, for] Berilgan matndagi so'zlar sonini
+//8 44-masala: [string, for] Berilgan matndagi so'zlar sonini
 // hisoblovchi funksiya yozing (bo'sh joylar bo'yicha ajrating).
-function masala44(matn) {}
+// function masala44(matn) {
+//   let sozlar = matn.split(" ");
+//   let sanoq = 0;
 
+//   for (let i = 0; i < sozlar.length; i++) {
+//     sanoq++;
+//   }
+
+//   return sanoq;
+// }
+
+// console.log(masala44("Bugun havo issi"))
 // 45-masala: [array, for] Massivdagi takrorlanuvchi elementlarni
 // olib tashlab, faqat unikal elementlarni qaytaruvchi funksiya yozing.
 function masala45(massiv) {}
