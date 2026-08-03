@@ -100,3 +100,14 @@ console.log(Math.log10(1000)); // 3 - 10 asosli logarifm
 console.log(Math.sign(-5)); // -1 - sonning belgisini qaytaradi (-1, 0, yoki 1)
 console.log(Math.sign(5)); // 1
 console.log(Math.sign(0)); // 0
+
+
+
+
+
+
+
+
+
+
+
