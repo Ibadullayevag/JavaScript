@@ -351,9 +351,24 @@ function masala34(chegara) {}
 // tub sonlarni (birinchi N ta) massiv ko'rinishida qaytaruvchi funksiya yozing.
 function masala36(son, n) {}
 
-// 37-masala: [if-else] Berilgan sonning tub son (prime) ekanligini
+//* 37-masala: [if-else] Berilgan sonning tub son (prime) ekanligini
 // tekshiruvchi funksiya yozing.
-function masala37(son) {}
+// function masala37(son) {
+//   if (son < 2) {
+//     return false;
+//   }
+
+//   for (let i = 2; i < son; i++) {
+//     if (son % i === 0) {
+//       return false;
+//     }
+//   }
+
+//   return true;
+// }
+
+// console.log(masala37(7))
+// console.log(masala37(10))
 
 // 38-masala: [for, if-else] 1 dan berilgan songacha bo'lgan
 // Fibonachchi ketma-ketligini massiv ko'rinishida qaytaruvchi funksiya yozing.
@@ -381,7 +396,7 @@ function masala43(matn) {
 
 }
 
-//8 44-masala: [string, for] Berilgan matndagi so'zlar sonini
+//* 44-masala: [string, for] Berilgan matndagi so'zlar sonini
 // hisoblovchi funksiya yozing (bo'sh joylar bo'yicha ajrating).
 // function masala44(matn) {
 //   let sozlar = matn.split(" ");
