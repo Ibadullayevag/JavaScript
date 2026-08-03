@@ -389,12 +389,27 @@ function masala44(matn) {}
 // olib tashlab, faqat unikal elementlarni qaytaruvchi funksiya yozing.
 function masala45(massiv) {}
 
-// 46-masala: [array, if-else] Massivni ikkiga ajratib, birinchisida
+//* 46-masala: [array, if-else] Massivni ikkiga ajratib, birinchisida
 // juft, ikkinchisida toq sonlar joylashgan ikkita massivdan iborat
 // massiv qaytaruvchi funksiya yozing ([juftlar, toqlar]).
-function masala46(massiv) {}
+// function masala46(massiv) {
+//   let juftlar = [];
+//   let toqlar = [];
 
-// 47-masala: [array, for] Ikkita massivning umumiy (kesishgan)
+//   for (let i = 0; i < massiv.length; i++) {
+//     if (massiv[i] % 2 === 0) {
+//       juftlar.push(massiv[i]);
+//     } else {
+//       toqlar.push(massiv[i]);
+//     }
+//   }
+
+//   return [juftlar, toqlar]
+// }
+
+// console.log(masala46([1, 2, 3, 4, 5, 6, 7, 8]))
+
+//! 47-masala: [array, for] Ikkita massivning umumiy (kesishgan)
 // elementlarini topuvchi funksiya yozing.
 function masala47(massiv1, massiv2) {}
 
@@ -436,10 +451,25 @@ function masala49(massiv) {}
 // ];
 
 // console.log(masala50(talabalar, 18))
-// 51-masala: [object, for] Object massividagi barcha elementlarning
+
+//* 51-masala: [object, for] Object massividagi barcha elementlarning
 // berilgan xususiyati (masalan "narx") bo'yicha yig'indisini
 // hisoblovchi funksiya yozing.
-function masala51(mahsulotlar) {}
+// function masala51(mahsulotlar) {
+//   let yigindi = 0;
+
+//   for (let i = 0; i < mahsulotlar.length; i++) {
+//     yigindi += mahsulotlar[i].narx;
+//   }
+
+//   return yigindi;
+// }
+// let mahsulotlar = [
+//   { nomi: "Non", narx: 5000 },
+//   { nomi: "Sut", narx: 12000 },
+//   { nomi: "Shakar", narx: 18000 }
+// ];
+// console.log(masala51(mahsulotlar))
 
 // 52-masala: [if-else, while] Berilgan sonni ikkilik (binary)
 // sanoq sistemasiga o'giruvchi funksiya yozing (built-in
