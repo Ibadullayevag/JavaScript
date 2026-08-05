@@ -51,3 +51,4 @@
 // console.log(Math.round(4.7))
 
 //12-topshiriq 4.9 sonini pastga (floor) yaxlitlang va natijani konsolga chiqaring.
+//console.log(Math.floor(4.9))
