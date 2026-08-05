@@ -79,7 +79,8 @@
 //^ Number Object (20-24 topshiriqlar)
 
 //20-topshiriq JavaScriptdagi maksimal xavfsiz butun sonni (MAX_SAFE_INTEGER) konsolga chiqaring.
-
+// const maksimal = Number.MAX_SAFE_INTEGER
+// console.log(maksimal);
 //21-topshiriq 42 soni butun son ekanligini tekshiring va natijani (true/false) konsolga chiqaring.
 
 //22-topshiriq "salom" matnini Number() yordamida songa o'girib, natija NaN ekanligini tekshiring va konsolga chiqaring.
