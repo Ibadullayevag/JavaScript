@@ -61,7 +61,8 @@
 // console.log(Math.max(...massiv))
 
 //15-topshiriq [5, 10, 3, 8] massividagi eng kichik sonni toping va konsolga chiqaring.
-
+// let massiv = [5, 10, 3, 8]
+// console.log(Math.min(...massiv))
 //16-topshiriq -7 sonining absolut (modul) qiymatini toping va konsolga chiqaring.
 
 //17-topshiriq 2 ning 3-darajasini hisoblang va konsolga chiqaring.
