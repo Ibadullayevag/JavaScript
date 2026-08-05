@@ -75,3 +75,20 @@
 
 //19-topshiriq 27 ning kub ildizini toping va konsolga chiqaring.
 //console.log(Math.cbrt(27))
+
+//^ Number Object (20-24 topshiriqlar)
+
+//20-topshiriq JavaScriptdagi maksimal xavfsiz butun sonni (MAX_SAFE_INTEGER) konsolga chiqaring.
+
+//21-topshiriq 42 soni butun son ekanligini tekshiring va natijani (true/false) konsolga chiqaring.
+
+//22-topshiriq "salom" matnini Number() yordamida songa o'girib, natija NaN ekanligini tekshiring va konsolga chiqaring.
+
+//23-topshiriq Infinity qiymati cheksiz son ekanligini tekshiring va natijani konsolga chiqaring.
+
+//24-topshiriq "3.14" matnini Number.parseFloat() yordamida haqiqiy songa o'giring va konsolga chiqaring.
+
+
+
+
+
