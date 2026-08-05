@@ -41,12 +41,13 @@
 // console.log(Math.PI)
 
 //10-topshiriq 0 va 1 oralig'ida tasodifiy son hosil qiling va konsolga chiqaring.
-function tasodifiySon(min, max) {
-  return Math.floor(Math.random() * (max - min + 1)) + min;
-}
+// function tasodifiySon(min, max) {
+//   return Math.floor(Math.random() * (max - min + 1)) + min;
+// }
 
-console.log(tasodifiySon(0, 1))
+// console.log(tasodifiySon(0, 1))
 
 //11-topshiriq 4.7 sonini eng yaqin butun songa yaxlitlang va natijani konsolga chiqaring.
+// console.log(Math.round(4.7))
 
 //12-topshiriq 4.9 sonini pastga (floor) yaxlitlang va natijani konsolga chiqaring.
