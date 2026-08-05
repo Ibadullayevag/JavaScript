@@ -57,6 +57,8 @@
 //console.log(Math.ceil(4.1))
 
 //14-topshiriq [5, 10, 3, 8] massividagi eng katta sonni toping va konsolga chiqaring.
+// let massiv = [5, 10, 3, 8]
+// console.log(Math.max(...massiv))
 
 //15-topshiriq [5, 10, 3, 8] massividagi eng kichik sonni toping va konsolga chiqaring.
 
