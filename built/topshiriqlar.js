@@ -45,7 +45,7 @@ function tasodifiySon(min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
-console.log(tasodifiySon(1, 6))
+console.log(tasodifiySon(0, 1))
 
 //11-topshiriq 4.7 sonini eng yaqin butun songa yaxlitlang va natijani konsolga chiqaring.
 
