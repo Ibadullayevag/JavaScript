@@ -111,3 +111,9 @@ console.log(Math.sign(0)); // 0
 
 
 
+const jsonMAlumot = JSON.stringify(foydalanuvchi) //string qiladi
+
+console.log(jsonMAlumot)
+console.log(JSON.parse(jsonMAlumot))// stringli obyekt qiladi
+
+console.log(typeof jsonMAlumot)
