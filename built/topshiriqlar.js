@@ -65,12 +65,13 @@
 // console.log(Math.min(...massiv))
 
 //16-topshiriq -7 sonining absolut (modul) qiymatini toping va konsolga chiqaring.
-
+// console.log(Math.abs(-7))
 
 //17-topshiriq 2 ning 3-darajasini hisoblang va konsolga chiqaring.
 //console.log(Math.pow(2, 3))
 
 //18-topshiriq 16 ning kvadrat ildizini toping va konsolga chiqaring.
+// console.log(Math.sqrt(16))
 
 //19-topshiriq 27 ning kub ildizini toping va konsolga chiqaring.
-
+//console.log(Math.cbrt(27))
