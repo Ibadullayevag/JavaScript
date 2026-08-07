@@ -98,10 +98,8 @@
 
 //JSON Object (25-27 topshiriqlar)
 //25-topshiriq {name: "Ali", age: 25} ob'ektini JSON string formatiga o'giring va konsolga chiqaring.
-const user = { name: "Ali", age: 25 };
-
-const json = JSON.stringify(user);
-
+const obyekt = { name: "Ali", age: 25 }
+const json = JSON.stringify(obyekt)
 console.log(json)
 //26-topshiriq '{"name":"Ali","age":25}' JSON stringini JavaScript ob'ektiga o'giring va konsolga chiqaring.
 
