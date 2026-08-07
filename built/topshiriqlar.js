@@ -81,10 +81,13 @@
 //20-topshiriq JavaScriptdagi maksimal xavfsiz butun sonni (MAX_SAFE_INTEGER) konsolga chiqaring.
 // const maksimal = Number.MAX_SAFE_INTEGER
 // console.log(maksimal);
+
 //21-topshiriq 42 soni butun son ekanligini tekshiring va natijani (true/false) konsolga chiqaring.
 
 //22-topshiriq "salom" matnini Number() yordamida songa o'girib, natija NaN ekanligini tekshiring va konsolga chiqaring.
-
+// let matn = "salom"
+// console.log(Number.isNaN(Number(matn)))
+// console.log(Number.isNaN(Number("12")))
 //23-topshiriq Infinity qiymati cheksiz son ekanligini tekshiring va natijani konsolga chiqaring.
 
 //24-topshiriq "3.14" matnini Number.parseFloat() yordamida haqiqiy songa o'giring va konsolga chiqaring.
@@ -92,4 +95,22 @@
 
 
 
+
+//JSON Object (25-27 topshiriqlar)
+//25-topshiriq {name: "Ali", age: 25} ob'ektini JSON string formatiga o'giring va konsolga chiqaring.
+const user = { name: "Ali", age: 25 };
+
+const json = JSON.stringify(user);
+
+console.log(json)
+//26-topshiriq '{"name":"Ali","age":25}' JSON stringini JavaScript ob'ektiga o'giring va konsolga chiqaring.
+
+//27-topshiriq {name: "Ali", age: 25, password: "123"} ob'ektini JSON ga o'giring, faqat name va age maydonlari qolsin. (replacer funksiyasidan foydalaning)
+
+//RegExp (28-30 topshiriqlar)
+//28-topshiriq "12345" matnida faqat raqamlar borligini tekshiruvchi regexp yozing va natijani konsolga chiqaring.
+
+//29-topshiriq "test@mail.com" email manzilini tekshiruvchi regexp yozing va natijani konsolga chiqaring.
+
+//30-topshiriq "Men 25 yoshdaman, 3 ta kitob o'qidim" matnidagi barcha raqamlarni topib, massiv ko'rinishida konsolga chiqaring.
 
