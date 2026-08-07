@@ -102,7 +102,11 @@
 // const obyekt = { name: "Ali", age: 25 }
 // const json = JSON.stringify(obyekt)
 // console.log(json)
+
 //26-topshiriq '{"name":"Ali","age":25}' JSON stringini JavaScript ob'ektiga o'giring va konsolga chiqaring.
+// const matn = '{"name":"Ali","age":25}'
+// const obyekt = JSON.parse(matn)
+// console.log(obyekt)
 
 //27-topshiriq {name: "Ali", age: 25, password: "123"} ob'ektini JSON ga o'giring, faqat name va age maydonlari qolsin. (replacer funksiyasidan foydalaning)
 
