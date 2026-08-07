@@ -112,7 +112,8 @@
 
 //RegExp (28-30 topshiriqlar)
 //28-topshiriq "12345" matnida faqat raqamlar borligini tekshiruvchi regexp yozing va natijani konsolga chiqaring.
-
+// const matn = "12345"
+// console.log(!isNaN(Number(matn)))
 //29-topshiriq "test@mail.com" email manzilini tekshiruvchi regexp yozing va natijani konsolga chiqaring.
 
 //30-topshiriq "Men 25 yoshdaman, 3 ta kitob o'qidim" matnidagi barcha raqamlarni topib, massiv ko'rinishida konsolga chiqaring.
