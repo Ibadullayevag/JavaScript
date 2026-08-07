@@ -89,6 +89,8 @@
 // console.log(Number.isNaN(Number(matn)))
 // console.log(Number.isNaN(Number("12")))
 //23-topshiriq Infinity qiymati cheksiz son ekanligini tekshiring va natijani konsolga chiqaring.
+// console.log(Number.isFinite(Infinity))
+// console.log(Number.isFinite(10/3))
 
 //24-topshiriq "3.14" matnini Number.parseFloat() yordamida haqiqiy songa o'giring va konsolga chiqaring.
 
