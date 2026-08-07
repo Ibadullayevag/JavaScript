@@ -93,9 +93,8 @@
 // console.log(Number.isFinite(10/3))
 
 //24-topshiriq "3.14" matnini Number.parseFloat() yordamida haqiqiy songa o'giring va konsolga chiqaring.
-
-
-
+// const son = "3.14";
+// console.log(Number.parseFloat(son))
 
 
 //JSON Object (25-27 topshiriqlar)
