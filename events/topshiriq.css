@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main{
+    background-color: rgb(32, 28, 28);
+    width: 260px;
+    height: 670px;
+  margin-top: 50px;
+    margin-left: 620px;
+    padding-top: 15px;
+
+}
+.qizil-chiroq{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: red;
+margin-bottom: 20px;
+margin-left: 25px;
+}
+
+.sariq-chiroq{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: yellow;
+    margin-left: 25px;
+}
+
+.yashil-chiroq{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: green;
+    margin-top: 20px;
+    margin-left: 25px;
+}
