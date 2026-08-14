@@ -1,44 +1,35 @@
-// const main = document.querySelector(".main");
+const div = document.createElement('div')
+document.body.append(div)
 
-// const h11 = document.querySelector(".h1")
-// const p = document.createElement("p")
-// p.textContent = "Shoxruz"
-// document.body.append(p)
-// p.style.color = "red"
-// p.className = "p1"
-// p.id = "p1"
+div.innerHTML = `
+    <div> Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora dicta, accusantium asperiores saepe aliquid quas, iusto culpa dolor non beatae ut cupiditate facilis eaque mollitia delectus nemo. Ipsam ut reiciendis rem beatae, qui optio ab exercitationem dicta iure nobis ullam ratione dolorum nostrum dolore recusandae? Facere voluptatibus in non quo?Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora dicta, accusantium asperiores saepe aliquid quas, iusto culpa dolor non beatae ut cupiditate facilis eaque mollitia delectus nemo. Ipsam ut reiciendis rem beatae, qui optio ab exercitationem dicta iure nobis ullam ratione dolorum nostrum dolore recusandae? Facere voluptatibus in non quo?Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora dicta, accusantium asperiores saepe aliquid quas, iusto culpa dolor non beatae ut cupiditate facilis eaque mollitia delectus nemo. Ipsam ut reiciendis rem beatae, qui optio ab exercitationem dicta iure nobis ullam ratione dolorum nostrum dolore recusandae? Facere voluptatibus in non quo?</div>
+    <div> Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora dicta, accusantium asperiores saepe aliquid quas, iusto culpa dolor non beatae ut cupiditate facilis eaque mollitia delectus nemo. Ipsam ut reiciendis rem beatae, qui optio ab exercitationem dicta iure nobis ullam ratione dolorum nostrum dolore recusandae? Facere voluptatibus in non quo?Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora dicta, accusantium asperiores saepe aliquid quas, iusto culpa dolor non beatae ut cupiditate facilis eaque mollitia delectus nemo. Ipsam ut reiciendis rem beatae, qui optio ab exercitationem dicta iure nobis ullam ratione dolorum nostrum dolore recusandae? Facere voluptatibus in non quo?Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora dicta, accusantium asperiores saepe aliquid quas, iusto culpa dolor non beatae ut cupiditate facilis eaque mollitia delectus nemo. Ipsam ut reiciendis rem beatae, qui optio ab exercitationem dicta iure nobis ullam ratione dolorum nostrum dolore recusandae? Facere voluptatibus in non quo?</div>
+    <div> Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora dicta, accusantium asperiores saepe aliquid quas, iusto culpa dolor non beatae ut cupiditate facilis eaque mollitia delectus nemo. Ipsam ut reiciendis rem beatae, qui optio ab exercitationem dicta iure nobis ullam ratione dolorum nostrum dolore recusandae? Facere voluptatibus in non quo?Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora dicta, accusantium asperiores saepe aliquid quas, iusto culpa dolor non beatae ut cupiditate facilis eaque mollitia delectus nemo. Ipsam ut reiciendis rem beatae, qui optio ab exercitationem dicta iure nobis ullam ratione dolorum nostrum dolore recusandae? Facere voluptatibus in non quo?Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora dicta, accusantium asperiores saepe aliquid quas, iusto culpa dolor non beatae ut cupiditate facilis eaque mollitia delectus nemo. Ipsam ut reiciendis rem beatae, qui optio ab exercitationem dicta iure nobis ullam ratione dolorum nostrum dolore recusandae? Facere voluptatibus in non quo?</div>
+    <div> Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora dicta, accusantium asperiores saepe aliquid quas, iusto culpa dolor non beatae ut cupiditate facilis eaque mollitia delectus nemo. Ipsam ut reiciendis rem beatae, qui optio ab exercitationem dicta iure nobis ullam ratione dolorum nostrum dolore recusandae? Facere voluptatibus in non quo?Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora dicta, accusantium asperiores saepe aliquid quas, iusto culpa dolor non beatae ut cupiditate facilis eaque mollitia delectus nemo. Ipsam ut reiciendis rem beatae, qui optio ab exercitationem dicta iure nobis ullam ratione dolorum nostrum dolore recusandae? Facere voluptatibus in non quo?Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora dicta, accusantium asperiores saepe aliquid quas, iusto culpa dolor non beatae ut cupiditate facilis eaque mollitia delectus nemo. Ipsam ut reiciendis rem beatae, qui optio ab exercitationem dicta iure nobis ullam ratione dolorum nostrum dolore recusandae? Facere voluptatibus in non quo?</div>
+   
 
+`
+div.id = "divv"
+const tashqidiv = document.getElementById('divv')
+tashqidiv.style.width = "2000px"
+tashqidiv.style.height = "500px"
+tashqidiv.style.boxShadow = "0px 1px 10px 1px"
+tashqidiv.style.borderRadius = "20px"
+tashqidiv.style.margin = "100px auto"
+tashqidiv.style.display = "flex"
+tashqidiv.style.justifyContent = "space-around"
+tashqidiv.style.alignItems = "center"
+tashqidiv.style.backgroundColor = "white"
 
-// const h1 = document.createElement("h1")
-// h1.textContent = "Bu h1 da yozilgan text"
-// document.body.append(h1)
-// h1.style.color ="blue"
-// h1.className = "h1"
-// h1.id = "h1"
+const ichkiDivlar = document.querySelectorAll("#divv div")
 
-// main.style.width = "900px"
-// main.style.height = "600px"
+ichkiDivlar.forEach((ichki) => {
+    ichki.style.boxShadow = "0px 1px 10px 1px ";
+    ichki.style.width = "250px"
+    ichki.style.height = "300px"
+    ichki.style.overflow = "scroll"
+    ichki.style.textAlign = "center"
+    ichki.style.padding = "10px"
+    ichki.style.borderRadius = "20px"
 
-// main.style.display ="flex"
-// main.style.justifyContent ="center"
-// main.style.alignItems = "center"
-// main.style.backgroundColor = "pink"
-
-// document.body.style.display = "flex"
-// document.body.style.justifyContent ="center"
-
-
-
-// h11.style.textAlign = "center"
-
-
-
-
-
-
-
-
-
-////////////
-
-
+});
