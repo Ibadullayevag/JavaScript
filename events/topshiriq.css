@@ -5,8 +5,8 @@
 }
 .main{
     background-color: rgb(32, 28, 28);
-    width: 260px;
-    height: 670px;
+    width: 290px;
+    height: 690px;
   margin-top: 50px;
     margin-left: 620px;
     padding-top: 15px;
@@ -36,4 +36,14 @@ margin-left: 25px;
     background-color: green;
     margin-top: 20px;
     margin-left: 25px;
+}
+
+
+.qizil-chiroq {
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.qizil-chiroq:hover {
+    transform: scale(1.1);
 }
