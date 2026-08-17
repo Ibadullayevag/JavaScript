@@ -111,3 +111,7 @@ body.light .navbar {
     background-color: white;
 }
 
+.light {
+color: black;
+background-color: #ffff;
+}
