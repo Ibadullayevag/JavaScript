@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    transition: 1s;
 }
 
 
@@ -41,7 +42,7 @@
     padding: 15px 20px;
     border: none;
     border-radius: 8px;
-    background-color: #111;
+    background-color: transparent;
     color: rgb(55, 122, 177);
     border: 2px solid rgb(55, 122, 177) ;
     font-size: 16px;
@@ -103,15 +104,20 @@ color: rgb(55, 122, 177);
 }
 
 
+body.light .navbar {
+    background-color: rgb(236, 233, 233);
+    color: black;
+}
+
+body.light .navbar * {
+    color: black;
+}
+
 body.light .main {
     background-color: white;
+    color: black;
 }
 
-body.light .navbar {
-    background-color: white;
-}
-
-.light {
-color: black;
-background-color: #ffff;
-}
+body.light .main * {
+    color: black;
+}       
