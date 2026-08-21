@@ -41,3 +41,123 @@ body{
     margin-left: 20px;
 }
 
+/*modalllllllllll*/
+.modal {
+    background-color: rgba(0, 0, 0, 0.5);
+    /* display: none; */
+    justify-content: center;
+    align-items: center;
+      position: fixed;
+     inset: 0;
+}
+
+ .modal.active {
+        display: flex;
+      }
+      .modal-content {
+        width: 400px;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        background-color: white;
+      }
+
+      /*Dizayn login*/
+
+      .display{
+        display: flex;
+        justify-content: space-around;
+        gap: 140px;
+      }
+
+      label{
+        width: 89%;
+      }
+      input{
+        width: 90%;
+        height: 4vh;
+        border-radius: 8px;
+        padding: 5px;
+        border: 1px solid  rgb(118, 111, 111);
+      }
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      /* ,,,*/
+
+      .modall {
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+      position: fixed;
+     inset: 0;
+}
+
+ .modall.active {
+        display: flex;
+      }
+      .modal-content {
+        width: 300px;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        background-color: white;
+      }
