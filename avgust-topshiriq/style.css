@@ -3,6 +3,9 @@
  padding: 0;
  box-sizing: border-box;
 }
+body{
+    background-color: antiquewhite;
+}
   .navbar {
     width: 100%;
     padding: 20px 30px;
@@ -11,3 +14,29 @@
     align-items: center;
     background-color: white;
 }
+
+.myweb{
+    font-size: 25px
+}
+
+.navbar-btns{
+   display: flex;
+}
+
+.login-btn{
+    padding: 13px 20px;
+    border: none;
+    font-size: 16px;
+    border-radius: 8px;
+    background-color: rgb(117, 117, 255);
+    color: white;
+}
+.sign-btn{
+  padding: 13px 20px;
+    border: none;
+    font-size: 16px;
+    border-radius: 8px;
+    background-color: rgb(51, 198, 51);
+    color: white;
+}
+
