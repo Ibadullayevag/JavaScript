@@ -82,6 +82,12 @@ body{
         padding: 5px;
         border: 1px solid  rgb(118, 111, 111);
       }
+
+      .btn-login{
+        width: 150px;
+        padding: 10px 20px;
+        margin-top: 15px;
+      }
       
 
 
