@@ -6,3 +6,5 @@ let meningFamilyam ='Ibadullayeva'
 let qoshish = meningIsmim+meningFamilyam
 
 console.log("Ism familya", qoshish)
+
+console.log()
