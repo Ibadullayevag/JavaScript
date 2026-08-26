@@ -1,11 +1,11 @@
-const loginBtn = document.getElementById("loginBtn");
-const modal = document.getElementById("modal");
-const closeBtn = document.getElementById("closeBtn");
+const modal = document.querySelector(".modal");
+const openBtn = document.querySelector(".open-btn");
+const closeBtn = document.querySelector(".close");
 
-loginBtn.onclick = function () {
-    modal.style.display = "flex";
-};
+openBtn.addEventListener("click", () => {
+    modal.classList.add("active");
+});
 
-closeBtn.onclick = function () {
-    modal.style.display = "none";
-};
+closeBtn.addEventListener("click", () => {
+    modal.classList.remove("active");
+});
