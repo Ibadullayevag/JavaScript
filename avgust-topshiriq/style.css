@@ -44,7 +44,7 @@ body{
 /*modalllllllllll*/
 .modal {
     background-color: rgba(0, 0, 0, 0.5);
-    /* display: none; */
+    display: none;
     justify-content: center;
     align-items: center;
       position: fixed;
@@ -88,7 +88,8 @@ body{
         padding: 10px 20px;
         margin-top: 15px;
       }
-      
+
+    
       
 
 
