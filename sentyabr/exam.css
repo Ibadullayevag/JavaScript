@@ -1,0 +1,11 @@
+section {
+    min-height: 400px;
+    padding: 50px;
+    text-align: center;
+}
+
+section h2 {
+    color: #7047d9;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
