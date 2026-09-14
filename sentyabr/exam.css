@@ -1,11 +1,296 @@
-section {
-    min-height: 400px;
-    padding: 50px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #101828;
+}
+
+
+
+
+.navbar {
+    width: 100%;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 32px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.shiftwave {
+    font-size: 17px;
+    color: #101828;
+}
+
+
+.links {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.links a {
+    text-decoration: none;
+    color: #344054;
+    font-size: 13px;
+    font-weight: 500;
+   
+    align-items: center;
+    gap: 7px;
+}
+
+.links i {
+    font-size: 9px;
+}
+
+.log-sig {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.log-sig button {
+    border: none;
+    cursor: pointer;
+    padding: 9px 17px;
+    border-radius: 5px;
+    font-size: 13px;
+}
+
+.login {
+    background-color: white;
+    color: #344054;
+}
+
+.create {
+    background-color: #7047d9;
+    color: white;
+}
+
+
+.main {
+    width: 100%;
+    min-height: 635px;
+    display: flex;
+    justify-content: center;
+    padding-top: 38px;
     text-align: center;
 }
 
-section h2 {
+
+
+.text {
+    width: 100%;
+}
+
+.text1 h1 {
+    font-size: 34px;
+    line-height: 1.5;
+    font-weight: 700;
+    letter-spacing: -1px;
+}
+
+.text1 span {
     color: #7047d9;
+}
+
+
+.text2 {
+    margin-top: 20px;
+}
+
+.text2 p {
+    color: #667085;
+    font-size: 14px;
+    line-height: 2;
+}
+
+
+
+.btns {
+    margin-top: 22px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 22px;
+}
+
+.btns button {
+    width: 125px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    cursor: pointer;
+}
+
+.btns i {
+    font-size: 21px;
+}
+
+.btns div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.btns small {
+    font-size: 7px;
+}
+
+.btns b {
+    font-size: 12px;
+}
+
+.phone {
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+.phone img {
+    width: 400px;
+    height: auto;
+    display: block;
+}
+.menu-btn {
+    display: none;
+    background: transparent;
+    border: none;
+    color: #000;
     font-size: 30px;
-    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+
+.nuqta {
+    display: none;
+}
+
+.links.active {
+    display: flex;
+    flex-direction: column;
+   
+}
+
+@media (max-width: 1024px) {
+    .company {
+        display: none;
+    }
+
+    .nuqta {
+        display: block;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        padding: 0 25px;
+    }
+    .links {
+        gap: 20px;
+    }
+
+    .links a {
+    font-size: 11px;
+    }
+
+    .company {
+        display: none;
+    }
+
+    .nuqta {
+        display: block;
+    }
+
+    .log-sig {
+        gap: 8px;
+    }
+    .log-sig button {
+        padding: 8px 13px;
+        font-size: 11px;
+    }
+    .main {
+        padding-top: 42px;
+    }
+
+    .text1 h1 {
+    font-size: 30px;
+    line-height: 1.25;
+    }
+    .text2 {
+     margin-top: 20px;
+    padding: 0 30px;
+    }
+
+    .text2 p {
+    font-size: 15px;
+    line-height: 1.5;
+    }
+}
+
+@media (max-width: 360px) {
+
+    .navbar {
+        padding: 20px;
+        position: relative;
+    }
+
+    .links {
+        display: none;
+    }
+
+    .links.active {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        width: 100%;
+        height: 300px;
+        background-color: aqua;
+        padding: 20px;
+        gap: 20px;
+    }
+
+    .menu-btn {
+        display: block;
+    }
+
+    .log-sig {
+        display: none;
+    }
+
+    .log-sig.active {
+        display: flex;
+        position: absolute;
+        top: 310px;
+        left: 0;
+        width: 100%;
+        justify-content: center;
+        gap: 15px;
+        background-color: aqua;
+        padding: 20px;
+    }
+    .phone img {
+        width: 328px;
+    }
 }
