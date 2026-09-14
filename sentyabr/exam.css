@@ -244,6 +244,9 @@ body {
     font-size: 15px;
     line-height: 1.5;
     }
+    .phone img{
+        width: 392px;
+    }
 }
 
 @media (max-width: 360px) {
