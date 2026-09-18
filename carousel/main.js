@@ -5,6 +5,8 @@ const nextBtn = document.getElementById("nextBtn")
 
 let currentIndex = 0
 
+const cardWidth = 200;
+
 nextBtn.addEventListener("click",  ()=>{
     if (currentIndex < 3) {
         currentIndex++;
@@ -21,3 +23,8 @@ prevBtn.addEventListener("click",  ()=>{
     }
 });
 
+function updateCArousel () {
+    const moveAmount = -currentIndex * cardWidth;
+
+    track.style.transform = `translateX(${moveAmount}px)`
+}
