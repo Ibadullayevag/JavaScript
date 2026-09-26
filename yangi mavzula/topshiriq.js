@@ -557,6 +557,8 @@
 // 84-topshiriq (splice)
 // let arr = [1, 2, 3, 4, 5];
 // splice() yordamida massivning barcha elementlarini o'chirib, o'rniga [9, 9, 9] massivini joylang.
+let arr = [1, 2, 3, 4, 5]
+
 
 
 // 85-topshiriq (keys)
