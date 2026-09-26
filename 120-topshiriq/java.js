@@ -169,7 +169,7 @@ console.log(3)
 // 31. Fibonachchi ketma-ketligining n-elementini for yordamida toping
 // 32. Berilgan massivda nechta element takrorlanganligini for va if yordamida toping
 // 33. Foydalanuvchi kiritgan sonning tub yoki murakkab ekanligini for va if yordamida tekshiring
-// let son = prompt("son kiritng")
+//!!!!! let son = prompt("son kiritng")
 // if( son % 2 ){
 //     else
 // }
